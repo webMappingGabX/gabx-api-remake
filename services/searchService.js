@@ -1,0 +1,114 @@
+const { Op } = require('sequelize');
+
+class SearchService {
+    /**
+     * Construit une requête de recherche pour Sequelize
+     * @param {string} searchTerm - Terme de recherche
+     * @param {Array} searchFields - Champs dans lesquels chercher
+     * @returns {Object} Condition WHERE pour Sequelize
+     */
+    static buildSearchCondition(searchTerm, searchFields) {
+        if (!searchTerm || !searchFields || searchFields.length === 0) {
+            return {};
+        }
+
+        const searchConditions = searchFields.map(field => ({
+            [field]: {
+                [Op.iLike]: `%${searchTerm}%`
+            }
+        }));
+
+        return { [Op.or]: searchConditions };
+    }
+
+    /**
+     * Recherche paginée avec filtres
+     * @param {Model} model - Modèle Sequelize
+     * @param {Object} options - Options de recherche
+     * @returns {Promise<Object>} Résultats et métadonnées
+     */
+    static async search(model, options = {}) {
+        const {
+            searchTerm,
+            searchFields = model.searchableFields || [],
+            where = {},
+            include = [],
+            order = [['createdAt', 'DESC']],
+            page = 1,
+            limit = 10,
+            paranoid = true
+        } = options;
+
+        // Construction de la condition de recherche
+        const searchCondition = this.buildSearchCondition(searchTerm, searchFields);
+
+        // Condition WHERE finale
+        const finalWhere = {
+            [Op.and]: [
+                searchCondition,
+                where
+            ].filter(condition => Object.keys(condition).length > 0)
+        };
+
+        // Pagination
+        const offset = (page - 1) * limit;
+
+        const { count, rows } = await model.findAndCountAll({
+            where: finalWhere,
+            include,
+            order,
+            limit,
+            offset,
+            paranoid,
+            distinct: true // Important pour les includes avec jointures
+        });
+
+        return {
+            data: rows,
+            pagination: {
+                total: count,
+                page: parseInt(page),
+                limit: parseInt(limit),
+                totalPages: Math.ceil(count / limit),
+                hasNext: page < Math.ceil(count / limit),
+                hasPrev: page > 1
+            }
+        };
+    }
+
+    /**
+     * Filtrage avancé avec opérateurs
+     * @param {Object} query - Query parameters
+     * @param {Array} allowedFilters - Champs filtrables
+     * @returns {Object} Conditions WHERE
+     */
+    static buildFilterConditions(query, allowedFilters = []) {
+        const where = {};
+        const { Op } = require('sequelize');
+
+        for (const [key, value] of Object.entries(query)) {
+            if (allowedFilters.includes(key) && value) {
+                // Gestion des opérateurs spéciaux
+                if (value.startsWith('>=')) {
+                    where[key] = { [Op.gte]: value.slice(2) };
+                } else if (value.startsWith('<=')) {
+                    where[key] = { [Op.lte]: value.slice(2) };
+                } else if (value.startsWith('>')) {
+                    where[key] = { [Op.gt]: value.slice(1) };
+                } else if (value.startsWith('<')) {
+                    where[key] = { [Op.lt]: value.slice(1) };
+                } else if (value.includes(',')) {
+                    // Valeurs multiples (IN)
+                    where[key] = { [Op.in]: value.split(',') };
+                } else {
+                    // Recherche exacte
+                    where[key] = value;
+                }
+            }
+        }
+
+        return where;
+    }
+}
+
+module.exports = SearchService;

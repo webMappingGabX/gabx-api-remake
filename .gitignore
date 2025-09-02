@@ -1,0 +1,8 @@
+node_modules/
+resources/tiles/
+uploads/
+resources/geojson/parcelles.geojson
+.env
+test.geojson
+config/apiKeys.json
+.env.production
