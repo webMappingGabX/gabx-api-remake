@@ -6,7 +6,8 @@ const isAdmin = require('../middleware/isAdmin');
 const router = express.Router();
 
 router.get('/', isAdmin, userController.all);
-router.get('/:id', isAuth, userController.get);
+router.get('/:id', isAdmin, userController.get);
+router.get('/me', isAuth, userController.me);
 router.post('/', isAdmin, userController.create);
 router.patch('/:id', isAdmin, userController.update);
 router.patch('/update-account', isAuth, userController.updateAccount);
