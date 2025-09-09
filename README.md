@@ -46,7 +46,7 @@ DB_PORT=5432
 DEFAULT_DB_NAME=postgres
 
 # Configuration du serveur
-PORT=5000
+PORT=5055
 
 # Autres variables d'environnement si nécessaire
 NODE_ENV=development

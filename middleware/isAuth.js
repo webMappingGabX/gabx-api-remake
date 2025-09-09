@@ -1,4 +1,5 @@
 const jwt = require('jsonwebtoken');
+const JWTService = require('../services/jwtService');
 
 const isAuth = (req, res, next) => {
   try {
@@ -11,12 +12,12 @@ const isAuth = (req, res, next) => {
 
     // Vérifier le token d'accès
     const decodedToken = JWTService.verifyAccessToken(token);
-    
+
     if (!decodedToken) {
       return res.status(401).json({ error: 'Token d\'accès invalide ou expiré' });
     }
 
-    if(decodedToken.statut != "ACTIVE") {
+    if(decodedToken.status != "ACTIVE") {
         return res.status(401).json({ error: "Le compte qui tente d'envoyer une requete n'est pas encore actif ou a ete banni" });
     }
 

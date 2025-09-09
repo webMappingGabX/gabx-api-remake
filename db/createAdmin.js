@@ -18,7 +18,7 @@ const createAdmin = async () => {
         "email" : ADMIN_EMAIL,
         "password" : ADMIN_PASSWORD,
         "role": "ADMIN",
-        "statut": "ACTIVE"
+        "status": "ACTIVE"
     });
 
     console.log("Administrateur par defaut configuré avec success");

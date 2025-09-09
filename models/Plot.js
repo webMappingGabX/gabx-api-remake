@@ -8,6 +8,7 @@ const Plot = sequelize.define("plot", {
         unique: true
     },
     geom: {
+        //type: DataTypes.GEOGRAPHY('POLYGON', 4326),
         type: DataTypes.GEOGRAPHY('MULTIPOLYGON', 4326),
         allowNull: true
     },

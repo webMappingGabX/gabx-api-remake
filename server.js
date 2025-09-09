@@ -22,8 +22,8 @@ app.use(cookieParser());
 app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 
 app.use(cors({
-  //origin: '*',  // Autoriser toutes les origines
-  origin: ['http://localhost:3000'],
+  origin: '*',  // Autoriser toutes les origines
+  //origin: ['http://localhost:3000'],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
@@ -73,7 +73,7 @@ const port = process.env.PORT || 3000;
 async function dbConfigurations() {
   // créer la base de donées si elle n'existe pas
   console.log("Synchronisation de la bd...");
-  await db.createDb(process.env.DB_NAME || 'selleroo_db');
+  await db.createDb(process.env.DB_NAME || 'gabx_db');
   //getDriveFile("1RfLnPrPAwiSS_fTLyFBCJXlJsfQPsxMh");
 
   // Synchroniser les modèles avec la base de données

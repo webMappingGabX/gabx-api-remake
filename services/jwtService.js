@@ -14,7 +14,7 @@ class JWTService {
                 username: user.username, 
                 email: user.email, 
                 role: user.role,
-                statut: user.statut
+                status: user.status
             },
             JWT_SECRET,
             { expiresIn: '1h' } // Token d'accès expire en 1 heure
@@ -77,7 +77,7 @@ class JWTService {
         try {
             // Vérifier la signature JWT
             const decoded = jwt.verify(token, REFRESH_SECRET);
-            
+
             // Vérifier le JTI dans la base de données
             const refreshToken = await RefreshToken.findOne({
                 where: {

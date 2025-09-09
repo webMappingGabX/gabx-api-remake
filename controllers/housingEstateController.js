@@ -14,7 +14,6 @@ exports.all = async (req, res) => {
             departement,
             district,
             place,
-            statut,
             buildingsType,
             sortBy = "code",
             sortOrder = "ASC"
@@ -27,7 +26,6 @@ exports.all = async (req, res) => {
         if(departement) where.departement = departement;
         if(district) where.district = district;
         if(place) where.place = place;
-        if(statut) where.statut = statut;
         if(buildingsType) where.buildingsType = buildingsType;
         
         const housingEstates = await SearchService.search(HousingEstate, {
@@ -82,11 +80,11 @@ exports.get = async (req, res) => {
 
 // Create new housing estate
 exports.create = async (req, res) => {
-    const { name } = req.body;
+    const { name, region, city, department, district, place, buildingsType, category } = req.body;
 
     try {
         const housingEstate = await HousingEstate.create({
-            name
+            name, region, city, department, district, place, buildingsType, category
         });
 
         res.status(201).json({ message: "Cité créée avec succès", housingEstate: housingEstate });
@@ -100,13 +98,20 @@ exports.create = async (req, res) => {
 // Update housing estate
 exports.update = async (req, res) => {
     const { id } = req.params;
-    const { name } = req.body;
+    const { name, region, city, department, district, place, buildingsType, category } = req.body;
 
     try {
         const housingEstate = await HousingEstate.findOne({ where: { id: id } });
 
         if (housingEstate != null) {
             if (name != null) housingEstate.name = name;
+            if (region != null) housingEstate.region = region;
+            if (city != null) housingEstate.city = city;
+            if (department != null) housingEstate.department = department;
+            if (district != null) housingEstate.district = district;
+            if (place != null) housingEstate.place = place;
+            if (buildingsType != null) housingEstate.buildingsType = buildingsType;
+            if (category != null) housingEstate.category = category;
 
             await housingEstate.save();
             res.status(200).json({ message: "Cité modifiée avec succès", housingEstate: housingEstate });

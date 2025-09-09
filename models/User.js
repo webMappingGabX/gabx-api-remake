@@ -71,6 +71,6 @@ User.prototype.validPassword = async function(password) {
 };
 
 // Champs de recherche
-User.searchableFields = ["username", "email", "profession", "role", "statut"];
+User.searchableFields = ["username", "email", "profession", "role", "status"];
 
 module.exports = User;

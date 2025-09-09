@@ -13,11 +13,13 @@ exports.all = async (req, res) => {
             departement,
             district,
             place,
-            statut,
+            status,
             sortBy = "code",
             sortOrder = "ASC"
         } = req.query;
 
+        // search
+        //console.log("TEXT TO SEARCH     ", search);
         // filtres exacts
         const where = {};
         if(region) where.region = region;
@@ -25,7 +27,7 @@ exports.all = async (req, res) => {
         if(departement) where.departement = departement;
         if(district) where.district = district;
         if(place) where.place = place;
-        if(statut) where.statut = statut;
+        if(status) where.status = status;
         
         const plots = await SearchService.search(Plot, {
             searchTerm: search,

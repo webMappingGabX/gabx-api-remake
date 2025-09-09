@@ -3,6 +3,7 @@ const { User } = require('../models');
 const { Op } = require('sequelize');
 const JWTService = require('../services/jwtService');
 const nodemailer = require('nodemailer');
+const { response } = require('express');
 
 exports.register = async (req, res) => {
   try {
@@ -22,7 +23,7 @@ exports.register = async (req, res) => {
     });
   } catch (err) {
     return res.status(400).json({
-      message: "Impossible de créé l'utilisateur",
+      message: "Impossible de créer l'utilisateur",
       error: err
     });
   }
@@ -45,9 +46,13 @@ exports.login = async (req, res) => {
       return res.status(404).json({ message: 'Utilisateur non trouvé' });
     }
 
+    if(user.status != "ACTIVE") {
+      return res.status(401).json({ message: "Ce compte n'est pas autorisé à se connecter" });
+    }
+
     const isPasswordValid = await user.validPassword(password);
     if (!isPasswordValid) {
-      return res.status(401).json({ message: 'Mot de passe incorrect' });
+      return res.status(401).json({ message: 'Identifiants incorrects' });
     }
 
     // Génère un token JWT avec l'ID de l'utilisateur
@@ -72,8 +77,19 @@ exports.login = async (req, res) => {
       sameSite: 'Strict'
     });
 
-    res.status(200).json({ message: 'Connexion réussie', user, "access": accessToken, "refresh": refreshToken.token });
+    res.status(200).json({ 
+      message: 'Connexion réussie',
+      "user": {
+        "username": user.username,
+        "email": user.email,
+        "profession": user.profession,
+        "role": user.role
+      },
+      "access": accessToken,
+      "refresh": refreshToken.token
+    });
   } catch (err) {
+    console.log("ERROR", err);
     res.status(400).json({ message: "Une erreur s'est produite pendant la connexion", error: err.message });
   }
 }
@@ -293,5 +309,72 @@ exports.resetPassword = async (req, res) => {
   } catch (error) {
       console.error('Erreur:', error);
       res.status(500).json({ error: 'Erreur lors de la réinitialisation' });
+  }
+}
+
+// Verifier si un nom d'utilisateur est libre
+exports.verifyResource = async (req, res) => {
+  const { username, email } = req.body;
+  try {
+
+    if(!username && !email) return res.status(400).json({
+      message: "Rien à verifier"
+    });
+
+    let existingUser = null;
+    if(username)
+    {
+      existingUser = await User.findOne({ where: { username } });
+      if(existingUser) return res.status(409).json({
+        message: "Ce nom d'utilisateur n'est plus disponible"
+      });
+    }
+    
+    if(email)
+    {
+      existingUser = await User.findOne({ where: { email } });
+      if(existingUser) return res.status(409).json({
+        message: "Cet email est déjà associé à un compte"
+      });
+    }
+
+    return res.status(200).json({
+      message: "Resource disponible",
+    });
+  } catch (err) {
+    return res.status(400).json({
+      message: "Impossible de vérifier la ressource",
+      error: err,
+      resources: { username, email }
+    });
+  }
+}
+
+// Verifier si l'email existe
+exports.verifyEmail = async (req, res) => {
+  const { email } = req.body;
+  try {
+
+    if(!email) return res.status(400).json({
+      message: "Rien à verifier"
+    });
+
+    let existingUser = null;
+    if(email)
+    {
+      existingUser = await User.findOne({ where: { email } });
+      if(existingUser) return res.status(200).json({
+        message: "Email trouvé"
+      });
+    }
+
+    return res.status(404).json({
+      message: "Email introuvable",
+    });
+  } catch (err) {
+    return res.status(400).json({
+      message: "Impossible de vérifier l'email",
+      error: err
+    });
   }
 }
