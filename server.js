@@ -3,7 +3,12 @@ const cookieParser = require('cookie-parser');
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/user");
 const plotRoutes = require("./routes/plot");
+const buildingRoutes = require("./routes/building");
+const observationRoutes = require("./routes/observation");
+const overlapRoutes = require("./routes/overlap");
+const tenantRoutes = require("./routes/tenant");
 const housingEstateRoutes = require("./routes/housingEstate");
+const camerGeoRoutes = require("./routes/camerGeo");
 const db = require("./db");
 const sequelize = require("./sequelize");
 const cors = require("cors");
@@ -13,6 +18,7 @@ const path = require('path');
 const http = require('http');
 const { Server } = require('socket.io');
 const CleanupService = require('./services/cleanupService');
+const loadCamerDatas = require('./db/loadCamerDatas');
 
 const app = express();
 
@@ -51,6 +57,11 @@ app.use(`${routeHead}/auth`, authRoutes);
 app.use(`${routeHead}/users`, userRoutes);
 app.use(`${routeHead}/plots`, plotRoutes);
 app.use(`${routeHead}/housing-estates`, housingEstateRoutes);
+app.use(`${routeHead}/buildings`, buildingRoutes);
+app.use(`${routeHead}/observations`, observationRoutes);
+app.use(`${routeHead}/overlaps`, overlapRoutes);
+app.use(`${routeHead}/tenant`, tenantRoutes);
+app.use(`${routeHead}/geo`, camerGeoRoutes);
 
 // Health check endpoint
 app.get(`${routeHead}/health`, (req, res) => {
@@ -78,10 +89,12 @@ async function dbConfigurations() {
 
   // Synchroniser les modèles avec la base de données
   //sequelize.sync({ force: true })
-  sequelize.sync({ force: false, alter: true })
+  //sequelize.sync({ force: true, alter: false })
+  sequelize.sync({ force: true, alter: false })
   .then(async () => {
     console.log("Les tables ont été synchronisées")
     await createAdmin();
+    await loadCamerDatas();
 
     // Démarrer le service de nettoyage automatique
     CleanupService.startAutomaticCleanup();

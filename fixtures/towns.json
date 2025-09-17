@@ -1,0 +1,3314 @@
+[
+  {
+    "model": "accounts.town",
+    "pk": 1,
+    "fields": {
+      "name": "Ngaoundéré Centre Ville",
+      "arrondissement": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 2,
+    "fields": {
+      "name": "Joli Soir",
+      "arrondissement": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 3,
+    "fields": {
+      "name": "Ville Adamaoua 3",
+      "arrondissement": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 4,
+    "fields": {
+      "name": "Ngan-ha Ville",
+      "arrondissement": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 5,
+    "fields": {
+      "name": "Nyambaka Ville",
+      "arrondissement": 5,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 6,
+    "fields": {
+      "name": "Martap Ville",
+      "arrondissement": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 7,
+    "fields": {
+      "name": "Mbé Ville",
+      "arrondissement": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 8,
+    "fields": {
+      "name": "Belel Ville",
+      "arrondissement": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 9,
+    "fields": {
+      "name": "Banyo Ville",
+      "arrondissement": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 10,
+    "fields": {
+      "name": "Mayo-Darlé Ville",
+      "arrondissement": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 11,
+    "fields": {
+      "name": "Bankim Ville",
+      "arrondissement": 11,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 12,
+    "fields": {
+      "name": "Meiganga Ville",
+      "arrondissement": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 13,
+    "fields": {
+      "name": "Djohong Ville",
+      "arrondissement": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 14,
+    "fields": {
+      "name": "Ngaoui Ville",
+      "arrondissement": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 15,
+    "fields": {
+      "name": "Dir Ville",
+      "arrondissement": 15,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 16,
+    "fields": {
+      "name": "Tignère Ville",
+      "arrondissement": 16,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 17,
+    "fields": {
+      "name": "Mayo-Baléo Ville",
+      "arrondissement": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 18,
+    "fields": {
+      "name": "Kontcha Ville",
+      "arrondissement": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 19,
+    "fields": {
+      "name": "Galim-Tignère Ville",
+      "arrondissement": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 20,
+    "fields": {
+      "name": "Tibati Ville",
+      "arrondissement": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 21,
+    "fields": {
+      "name": "Ngaoundal Ville",
+      "arrondissement": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 22,
+    "fields": {
+      "name": "Nanga-Eboko Ville",
+      "arrondissement": 22,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 23,
+    "fields": {
+      "name": "Nsem Ville",
+      "arrondissement": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 24,
+    "fields": {
+      "name": "Bibey Ville",
+      "arrondissement": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 25,
+    "fields": {
+      "name": "Minta Ville",
+      "arrondissement": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 26,
+    "fields": {
+      "name": "Mbandjock Ville",
+      "arrondissement": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 27,
+    "fields": {
+      "name": "Lembe-Yezoum Ville",
+      "arrondissement": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 28,
+    "fields": {
+      "name": "Nkoteng Ville",
+      "arrondissement": 28,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 29,
+    "fields": {
+      "name": "Monatélé Ville",
+      "arrondissement": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 30,
+    "fields": {
+      "name": "Obala Ville",
+      "arrondissement": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 31,
+    "fields": {
+      "name": "Batchenga Ville",
+      "arrondissement": 31,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 32,
+    "fields": {
+      "name": "Elig-Mfomo Ville",
+      "arrondissement": 32,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 33,
+    "fields": {
+      "name": "Okola Ville",
+      "arrondissement": 33,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 34,
+    "fields": {
+      "name": "Lobo Ville",
+      "arrondissement": 34,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 36,
+    "fields": {
+      "name": "Ebebda Ville",
+      "arrondissement": 36,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 37,
+    "fields": {
+      "name": "Bafia Ville",
+      "arrondissement": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 38,
+    "fields": {
+      "name": "Deuk Ville",
+      "arrondissement": 38,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 39,
+    "fields": {
+      "name": "Bokito Ville",
+      "arrondissement": 39,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 40,
+    "fields": {
+      "name": "Ndikiniméki Ville",
+      "arrondissement": 40,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 41,
+    "fields": {
+      "name": "Nitoukou Ville",
+      "arrondissement": 41,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 42,
+    "fields": {
+      "name": "Makénéné Ville",
+      "arrondissement": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 43,
+    "fields": {
+      "name": "Ombessa Ville",
+      "arrondissement": 43,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 44,
+    "fields": {
+      "name": "Kiki Ville",
+      "arrondissement": 44,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 45,
+    "fields": {
+      "name": "Kon-Yambetta Ville",
+      "arrondissement": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 46,
+    "fields": {
+      "name": "Akonalinga Ville",
+      "arrondissement": 46,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 47,
+    "fields": {
+      "name": "Mengang Ville",
+      "arrondissement": 47,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 48,
+    "fields": {
+      "name": "Endom Ville",
+      "arrondissement": 48,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 49,
+    "fields": {
+      "name": "Nyakombo Ville",
+      "arrondissement": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 50,
+    "fields": {
+      "name": "Ayos Ville",
+      "arrondissement": 50,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 51,
+    "fields": {
+      "name": "Mbalmayo Centre",
+      "arrondissement": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 52,
+    "fields": {
+      "name": "Akoeman Ville",
+      "arrondissement": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 53,
+    "fields": {
+      "name": "Mengueme Ville",
+      "arrondissement": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 54,
+    "fields": {
+      "name": "Nkolmetet Ville",
+      "arrondissement": 54,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 55,
+    "fields": {
+      "name": "Dzeng Ville",
+      "arrondissement": 55,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 56,
+    "fields": {
+      "name": "Ngomedzap Ville",
+      "arrondissement": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 57,
+    "fields": {
+      "name": "Ntui Ville",
+      "arrondissement": 57,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 58,
+    "fields": {
+      "name": "Ngoro Ville",
+      "arrondissement": 58,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 59,
+    "fields": {
+      "name": "Yoko Ville",
+      "arrondissement": 59,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 60,
+    "fields": {
+      "name": "Ngambé-Tikar Ville",
+      "arrondissement": 60,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 61,
+    "fields": {
+      "name": "Mbangassina Ville",
+      "arrondissement": 61,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 62,
+    "fields": {
+      "name": "Awae Ville",
+      "arrondissement": 62,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 63,
+    "fields": {
+      "name": "Assamba Ville",
+      "arrondissement": 63,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 64,
+    "fields": {
+      "name": "Esse Ville",
+      "arrondissement": 64,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 65,
+    "fields": {
+      "name": "Afamloum Ville",
+      "arrondissement": 65,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 66,
+    "fields": {
+      "name": "Edzendouan Ville",
+      "arrondissement": 66,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 67,
+    "fields": {
+      "name": "Nkolafamba Ville",
+      "arrondissement": 67,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 68,
+    "fields": {
+      "name": "Mfou Ville",
+      "arrondissement": 68,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 69,
+    "fields": {
+      "name": "Soa Ville",
+      "arrondissement": 69,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 70,
+    "fields": {
+      "name": "Ngoumou Ville",
+      "arrondissement": 70,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 71,
+    "fields": {
+      "name": "Akono Ville",
+      "arrondissement": 71,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 72,
+    "fields": {
+      "name": "Bikok Ville",
+      "arrondissement": 72,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 73,
+    "fields": {
+      "name": "Mbankomo Ville",
+      "arrondissement": 73,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 74,
+    "fields": {
+      "name": "Nlongkak",
+      "arrondissement": 74,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 75,
+    "fields": {
+      "name": "Tsinga",
+      "arrondissement": 74,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 76,
+    "fields": {
+      "name": "Mokolo",
+      "arrondissement": 75,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 77,
+    "fields": {
+      "name": "Elig-Essono",
+      "arrondissement": 75,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 78,
+    "fields": {
+      "name": "Mvog-Ada",
+      "arrondissement": 76,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 79,
+    "fields": {
+      "name": "Ekoumdoum",
+      "arrondissement": 77,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 80,
+    "fields": {
+      "name": "Ngousso",
+      "arrondissement": 78,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 81,
+    "fields": {
+      "name": "Bastos",
+      "arrondissement": 79,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 82,
+    "fields": {
+      "name": "Biyem-Assi",
+      "arrondissement": 79,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 83,
+    "fields": {
+      "name": "Nkoabang",
+      "arrondissement": 80,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 84,
+    "fields": {
+      "name": "Eséka Ville",
+      "arrondissement": 81,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 85,
+    "fields": {
+      "name": "Matomb Ville",
+      "arrondissement": 82,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 86,
+    "fields": {
+      "name": "Ngog-Mapubi Ville",
+      "arrondissement": 83,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 87,
+    "fields": {
+      "name": "Bondjock Ville",
+      "arrondissement": 84,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 88,
+    "fields": {
+      "name": "Biyouha Ville",
+      "arrondissement": 85,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 89,
+    "fields": {
+      "name": "Bot-Makak Ville",
+      "arrondissement": 86,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 90,
+    "fields": {
+      "name": "Makak Ville",
+      "arrondissement": 87,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 91,
+    "fields": {
+      "name": "Messondo Ville",
+      "arrondissement": 88,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 92,
+    "fields": {
+      "name": "Dibang Ville",
+      "arrondissement": 89,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 93,
+    "fields": {
+      "name": "Nguti Ville",
+      "arrondissement": 90,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 94,
+    "fields": {
+      "name": "Yokadouma Ville",
+      "arrondissement": 91,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 95,
+    "fields": {
+      "name": "Moloundou Ville",
+      "arrondissement": 92,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 96,
+    "fields": {
+      "name": "Salapoumbé Ville",
+      "arrondissement": 93,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 97,
+    "fields": {
+      "name": "Gari-Gombo Ville",
+      "arrondissement": 94,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 98,
+    "fields": {
+      "name": "Abong-Mbang Ville",
+      "arrondissement": 95,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 99,
+    "fields": {
+      "name": "Doumé Ville",
+      "arrondissement": 96,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 100,
+    "fields": {
+      "name": "Lomié Ville",
+      "arrondissement": 97,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 101,
+    "fields": {
+      "name": "Messaména Ville",
+      "arrondissement": 98,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 102,
+    "fields": {
+      "name": "Ngoyla Ville",
+      "arrondissement": 99,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 103,
+    "fields": {
+      "name": "Somalomo Ville",
+      "arrondissement": 100,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 104,
+    "fields": {
+      "name": "Mindourou Ville",
+      "arrondissement": 101,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 105,
+    "fields": {
+      "name": "Dimako Ville",
+      "arrondissement": 102,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 106,
+    "fields": {
+      "name": "Nguelémendouka Ville",
+      "arrondissement": 103,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 107,
+    "fields": {
+      "name": "Doulé Ville",
+      "arrondissement": 104,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 108,
+    "fields": {
+      "name": "Bertoua Centre Ville",
+      "arrondissement": 105,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 109,
+    "fields": {
+      "name": "Kano",
+      "arrondissement": 106,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 110,
+    "fields": {
+      "name": "Mandjou Ville",
+      "arrondissement": 107,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 111,
+    "fields": {
+      "name": "Bélabo Ville",
+      "arrondissement": 108,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 112,
+    "fields": {
+      "name": "Diang Ville",
+      "arrondissement": 109,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 113,
+    "fields": {
+      "name": "Bétaré-Oya Ville",
+      "arrondissement": 110,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 114,
+    "fields": {
+      "name": "Ngoura Ville",
+      "arrondissement": 111,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 115,
+    "fields": {
+      "name": "Garoua-Boulaï Ville",
+      "arrondissement": 112,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 116,
+    "fields": {
+      "name": "Batouri Ville",
+      "arrondissement": 113,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 117,
+    "fields": {
+      "name": "Ndelelé Ville",
+      "arrondissement": 114,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 118,
+    "fields": {
+      "name": "Kette Ville",
+      "arrondissement": 115,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 119,
+    "fields": {
+      "name": "Kentzou Ville",
+      "arrondissement": 116,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 120,
+    "fields": {
+      "name": "Mbang Ville",
+      "arrondissement": 117,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 121,
+    "fields": {
+      "name": "Bombe Ville",
+      "arrondissement": 118,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 122,
+    "fields": {
+      "name": "Mbotoro Ville",
+      "arrondissement": 119,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 123,
+    "fields": {
+      "name": "Ndokayo Ville",
+      "arrondissement": 120,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 124,
+    "fields": {
+      "name": "Ngoulémakong Ville",
+      "arrondissement": 121,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 125,
+    "fields": {
+      "name": "Boumba-Bek Ville",
+      "arrondissement": 122,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 126,
+    "fields": {
+      "name": "Nguindi Ville",
+      "arrondissement": 123,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 127,
+    "fields": {
+      "name": "Maroua Centre Ville",
+      "arrondissement": 124,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 128,
+    "fields": {
+      "name": "Kongola",
+      "arrondissement": 125,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 129,
+    "fields": {
+      "name": "Ville Extrême-Nord 129",
+      "arrondissement": 126,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 130,
+    "fields": {
+      "name": "Dargala Ville",
+      "arrondissement": 127,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 131,
+    "fields": {
+      "name": "Ndoukoula Ville",
+      "arrondissement": 128,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 132,
+    "fields": {
+      "name": "Gazawa Ville",
+      "arrondissement": 129,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 133,
+    "fields": {
+      "name": "Pette Ville",
+      "arrondissement": 130,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 134,
+    "fields": {
+      "name": "Bogo Ville",
+      "arrondissement": 131,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 135,
+    "fields": {
+      "name": "Méri Ville",
+      "arrondissement": 132,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 136,
+    "fields": {
+      "name": "Kousséri Ville",
+      "arrondissement": 133,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 137,
+    "fields": {
+      "name": "Magada",
+      "arrondissement": 133,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 138,
+    "fields": {
+      "name": "Zina Ville",
+      "arrondissement": 134,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 139,
+    "fields": {
+      "name": "Logone-Birni Ville",
+      "arrondissement": 135,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 140,
+    "fields": {
+      "name": "Waza Ville",
+      "arrondissement": 136,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 141,
+    "fields": {
+      "name": "Makary Ville",
+      "arrondissement": 137,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 142,
+    "fields": {
+      "name": "Darak Ville",
+      "arrondissement": 138,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 143,
+    "fields": {
+      "name": "Goulfey Ville",
+      "arrondissement": 139,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 144,
+    "fields": {
+      "name": "Blangoua Ville",
+      "arrondissement": 140,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 145,
+    "fields": {
+      "name": "Fotokol Ville",
+      "arrondissement": 141,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 146,
+    "fields": {
+      "name": "Hile-Halifa Ville",
+      "arrondissement": 142,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 147,
+    "fields": {
+      "name": "Mora Ville",
+      "arrondissement": 143,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 148,
+    "fields": {
+      "name": "Tokombéré Ville",
+      "arrondissement": 144,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 149,
+    "fields": {
+      "name": "Kolofata Ville",
+      "arrondissement": 145,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 150,
+    "fields": {
+      "name": "Mokolo Ville",
+      "arrondissement": 146,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 151,
+    "fields": {
+      "name": "Soulédé-Roua Ville",
+      "arrondissement": 147,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 152,
+    "fields": {
+      "name": "Bourha Ville",
+      "arrondissement": 148,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 153,
+    "fields": {
+      "name": "Koza Ville",
+      "arrondissement": 149,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 154,
+    "fields": {
+      "name": "Hina Ville",
+      "arrondissement": 150,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 155,
+    "fields": {
+      "name": "Mogodé Ville",
+      "arrondissement": 151,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 156,
+    "fields": {
+      "name": "Mayo-Moskota Ville",
+      "arrondissement": 152,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 157,
+    "fields": {
+      "name": "Yagoua Ville",
+      "arrondissement": 153,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 158,
+    "fields": {
+      "name": "Guéré Ville",
+      "arrondissement": 154,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 159,
+    "fields": {
+      "name": "Maga Ville",
+      "arrondissement": 155,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 160,
+    "fields": {
+      "name": "Wina Ville",
+      "arrondissement": 156,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 161,
+    "fields": {
+      "name": "Vélé Ville",
+      "arrondissement": 157,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 162,
+    "fields": {
+      "name": "Kai-Kai Ville",
+      "arrondissement": 158,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 163,
+    "fields": {
+      "name": "Gobo Ville",
+      "arrondissement": 159,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 164,
+    "fields": {
+      "name": "Kar-Hay Ville",
+      "arrondissement": 160,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 165,
+    "fields": {
+      "name": "Datcheka Ville",
+      "arrondissement": 161,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 166,
+    "fields": {
+      "name": "Tchati-Bali Ville",
+      "arrondissement": 162,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 167,
+    "fields": {
+      "name": "Kalfou Ville",
+      "arrondissement": 163,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 168,
+    "fields": {
+      "name": "Kaélé Ville",
+      "arrondissement": 164,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 169,
+    "fields": {
+      "name": "Guidiguis Ville",
+      "arrondissement": 165,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 170,
+    "fields": {
+      "name": "Moutourwa Ville",
+      "arrondissement": 166,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 171,
+    "fields": {
+      "name": "Porhi Ville",
+      "arrondissement": 167,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 172,
+    "fields": {
+      "name": "Taibong Ville",
+      "arrondissement": 168,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 173,
+    "fields": {
+      "name": "Mindif Ville",
+      "arrondissement": 169,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 174,
+    "fields": {
+      "name": "Moulvoudaye Ville",
+      "arrondissement": 170,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 175,
+    "fields": {
+      "name": "Nkongsamba Centre",
+      "arrondissement": 171,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 176,
+    "fields": {
+      "name": "Ekangté",
+      "arrondissement": 172,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 177,
+    "fields": {
+      "name": "Ville Littoral 177",
+      "arrondissement": 173,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 178,
+    "fields": {
+      "name": "Nlonako Ville",
+      "arrondissement": 174,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 179,
+    "fields": {
+      "name": "Dibombari Centre",
+      "arrondissement": 175,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 180,
+    "fields": {
+      "name": "Fiko Ville",
+      "arrondissement": 176,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 181,
+    "fields": {
+      "name": "Loum Ville",
+      "arrondissement": 177,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 182,
+    "fields": {
+      "name": "Njombé-Penja Ville",
+      "arrondissement": 178,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 183,
+    "fields": {
+      "name": "Manjo Ville",
+      "arrondissement": 179,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 184,
+    "fields": {
+      "name": "Mbanga Centre",
+      "arrondissement": 180,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 185,
+    "fields": {
+      "name": "Mombo Ville",
+      "arrondissement": 181,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 186,
+    "fields": {
+      "name": "Melong Ville",
+      "arrondissement": 182,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 187,
+    "fields": {
+      "name": "Baré-Bakem Ville",
+      "arrondissement": 183,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 188,
+    "fields": {
+      "name": "Edéa Centre",
+      "arrondissement": 184,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 189,
+    "fields": {
+      "name": "Ville Littoral 189",
+      "arrondissement": 185,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 190,
+    "fields": {
+      "name": "Dizangué Centre",
+      "arrondissement": 186,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 191,
+    "fields": {
+      "name": "Mouanko Ville",
+      "arrondissement": 187,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 192,
+    "fields": {
+      "name": "Ndom Centre",
+      "arrondissement": 188,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 193,
+    "fields": {
+      "name": "Nyanon Ville",
+      "arrondissement": 189,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 194,
+    "fields": {
+      "name": "Ngambé Ville",
+      "arrondissement": 190,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 195,
+    "fields": {
+      "name": "Massock-Songloulou Ville",
+      "arrondissement": 191,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 196,
+    "fields": {
+      "name": "Pouma Ville",
+      "arrondissement": 192,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 197,
+    "fields": {
+      "name": "Dibamba Ville",
+      "arrondissement": 193,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 198,
+    "fields": {
+      "name": "Ngwei Ville",
+      "arrondissement": 194,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 199,
+    "fields": {
+      "name": "Yabassi Centre",
+      "arrondissement": 195,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 200,
+    "fields": {
+      "name": "Nkondjock Centre",
+      "arrondissement": 196,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 201,
+    "fields": {
+      "name": "Nord-Makombé Ville",
+      "arrondissement": 197,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 202,
+    "fields": {
+      "name": "Yingui Ville",
+      "arrondissement": 198,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 203,
+    "fields": {
+      "name": "Akwa",
+      "arrondissement": 199,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 204,
+    "fields": {
+      "name": "Bonabéri",
+      "arrondissement": 199,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 205,
+    "fields": {
+      "name": "Bali",
+      "arrondissement": 200,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 206,
+    "fields": {
+      "name": "Deido",
+      "arrondissement": 200,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 207,
+    "fields": {
+      "name": "Japoma",
+      "arrondissement": 201,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 208,
+    "fields": {
+      "name": "Bassa",
+      "arrondissement": 201,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 209,
+    "fields": {
+      "name": "Nylon",
+      "arrondissement": 202,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 210,
+    "fields": {
+      "name": "Bonamoussadi",
+      "arrondissement": 203,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 211,
+    "fields": {
+      "name": "Logpom",
+      "arrondissement": 203,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 212,
+    "fields": {
+      "name": "Ndokoti",
+      "arrondissement": 203,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 213,
+    "fields": {
+      "name": "Cité des Palmiers",
+      "arrondissement": 203,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 214,
+    "fields": {
+      "name": "Manoka Ville",
+      "arrondissement": 205,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 215,
+    "fields": {
+      "name": "Garoua Centre Ville",
+      "arrondissement": 206,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 216,
+    "fields": {
+      "name": "Poumpoumré",
+      "arrondissement": 207,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 217,
+    "fields": {
+      "name": "Ville Nord 217",
+      "arrondissement": 208,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 218,
+    "fields": {
+      "name": "Baschéo Ville",
+      "arrondissement": 209,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 219,
+    "fields": {
+      "name": "Demsa Ville",
+      "arrondissement": 210,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 220,
+    "fields": {
+      "name": "Bibémi Ville",
+      "arrondissement": 211,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 221,
+    "fields": {
+      "name": "Touroua Ville",
+      "arrondissement": 212,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 222,
+    "fields": {
+      "name": "Pitoa Ville",
+      "arrondissement": 213,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 223,
+    "fields": {
+      "name": "Dembo Ville",
+      "arrondissement": 214,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 224,
+    "fields": {
+      "name": "Lagdo Ville",
+      "arrondissement": 215,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 225,
+    "fields": {
+      "name": "Tchéboa Ville",
+      "arrondissement": 216,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 226,
+    "fields": {
+      "name": "Poli Ville",
+      "arrondissement": 217,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 227,
+    "fields": {
+      "name": "Béka Ville",
+      "arrondissement": 218,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 228,
+    "fields": {
+      "name": "Tcholliré Ville",
+      "arrondissement": 219,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 229,
+    "fields": {
+      "name": "Madingring Ville",
+      "arrondissement": 220,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 230,
+    "fields": {
+      "name": "Rey-Bouba Ville",
+      "arrondissement": 221,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 231,
+    "fields": {
+      "name": "Touboro Ville",
+      "arrondissement": 222,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 232,
+    "fields": {
+      "name": "Guider Ville",
+      "arrondissement": 223,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 233,
+    "fields": {
+      "name": "Mayo-Oulo Ville",
+      "arrondissement": 224,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 234,
+    "fields": {
+      "name": "Figuil Ville",
+      "arrondissement": 225,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 235,
+    "fields": {
+      "name": "Mayo-Houra Ville",
+      "arrondissement": 226,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 236,
+    "fields": {
+      "name": "Kumbo Town",
+      "arrondissement": 227,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 237,
+    "fields": {
+      "name": "Noni Ville",
+      "arrondissement": 228,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 238,
+    "fields": {
+      "name": "Mbven Ville",
+      "arrondissement": 229,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 239,
+    "fields": {
+      "name": "Jakiri Ville",
+      "arrondissement": 230,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 240,
+    "fields": {
+      "name": "Oku Ville",
+      "arrondissement": 231,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 241,
+    "fields": {
+      "name": "Nkum Ville",
+      "arrondissement": 232,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 242,
+    "fields": {
+      "name": "Wum Town",
+      "arrondissement": 233,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 243,
+    "fields": {
+      "name": "Furu-Awa Ville",
+      "arrondissement": 234,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 244,
+    "fields": {
+      "name": "Fungom Ville",
+      "arrondissement": 235,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 245,
+    "fields": {
+      "name": "Menchum Valley Ville",
+      "arrondissement": 236,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 246,
+    "fields": {
+      "name": "Ndop Centre",
+      "arrondissement": 237,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 247,
+    "fields": {
+      "name": "Babessi Ville",
+      "arrondissement": 238,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 248,
+    "fields": {
+      "name": "Balikumbat Village",
+      "arrondissement": 239,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 249,
+    "fields": {
+      "name": "Nkwen",
+      "arrondissement": 240,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 250,
+    "fields": {
+      "name": "Upstation",
+      "arrondissement": 240,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 251,
+    "fields": {
+      "name": "Mankon",
+      "arrondissement": 241,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 252,
+    "fields": {
+      "name": "Ville Nord-Ouest 252",
+      "arrondissement": 242,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 253,
+    "fields": {
+      "name": "Santa Ville",
+      "arrondissement": 243,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 254,
+    "fields": {
+      "name": "Tubah Ville",
+      "arrondissement": 244,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 255,
+    "fields": {
+      "name": "Bali Ville",
+      "arrondissement": 245,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 256,
+    "fields": {
+      "name": "Bafut Centre",
+      "arrondissement": 246,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 257,
+    "fields": {
+      "name": "Fundong Town",
+      "arrondissement": 247,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 258,
+    "fields": {
+      "name": "Belo Ville",
+      "arrondissement": 248,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 259,
+    "fields": {
+      "name": "Bum Ville",
+      "arrondissement": 249,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 260,
+    "fields": {
+      "name": "Njikwa Ville",
+      "arrondissement": 250,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 261,
+    "fields": {
+      "name": "Mbengwi Town",
+      "arrondissement": 251,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 262,
+    "fields": {
+      "name": "Ngie Ville",
+      "arrondissement": 252,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 263,
+    "fields": {
+      "name": "Batibo Village",
+      "arrondissement": 253,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 264,
+    "fields": {
+      "name": "Widikum-Menka Ville",
+      "arrondissement": 254,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 265,
+    "fields": {
+      "name": "Nkambe Town",
+      "arrondissement": 255,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 266,
+    "fields": {
+      "name": "Ako Ville",
+      "arrondissement": 256,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 267,
+    "fields": {
+      "name": "Ndu Ville",
+      "arrondissement": 257,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 268,
+    "fields": {
+      "name": "Misaje Ville",
+      "arrondissement": 258,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 269,
+    "fields": {
+      "name": "Nwa Ville",
+      "arrondissement": 259,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 270,
+    "fields": {
+      "name": "Mbouda Ville",
+      "arrondissement": 260,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 271,
+    "fields": {
+      "name": "Babadjou Ville",
+      "arrondissement": 261,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 272,
+    "fields": {
+      "name": "Batcham Ville",
+      "arrondissement": 262,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 273,
+    "fields": {
+      "name": "Galim Ville",
+      "arrondissement": 263,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 274,
+    "fields": {
+      "name": "Bafang Ville",
+      "arrondissement": 264,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 275,
+    "fields": {
+      "name": "Bakou Ville",
+      "arrondissement": 265,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 276,
+    "fields": {
+      "name": "Bana Ville",
+      "arrondissement": 266,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 277,
+    "fields": {
+      "name": "Bandja Ville",
+      "arrondissement": 267,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 278,
+    "fields": {
+      "name": "Kekem Ville",
+      "arrondissement": 268,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 279,
+    "fields": {
+      "name": "Banwa Ville",
+      "arrondissement": 269,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 280,
+    "fields": {
+      "name": "Banka Ville",
+      "arrondissement": 270,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 281,
+    "fields": {
+      "name": "Dschang Ville",
+      "arrondissement": 271,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 282,
+    "fields": {
+      "name": "Santchou Ville",
+      "arrondissement": 272,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 283,
+    "fields": {
+      "name": "Fokoué Ville",
+      "arrondissement": 273,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 284,
+    "fields": {
+      "name": "Nkong-Ni Ville",
+      "arrondissement": 274,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 285,
+    "fields": {
+      "name": "Penka-Michel Ville",
+      "arrondissement": 275,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 286,
+    "fields": {
+      "name": "Fongo-Tongo Ville",
+      "arrondissement": 276,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 287,
+    "fields": {
+      "name": "Bafoussam Marché",
+      "arrondissement": 277,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 288,
+    "fields": {
+      "name": "Djeleng",
+      "arrondissement": 278,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 289,
+    "fields": {
+      "name": "Kamkop",
+      "arrondissement": 279,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 290,
+    "fields": {
+      "name": "Foumban Ville",
+      "arrondissement": 280,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 291,
+    "fields": {
+      "name": "Malentouen Ville",
+      "arrondissement": 281,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 292,
+    "fields": {
+      "name": "Koutaba Ville",
+      "arrondissement": 282,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 293,
+    "fields": {
+      "name": "Magba Ville",
+      "arrondissement": 283,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 294,
+    "fields": {
+      "name": "Bangourain Ville",
+      "arrondissement": 284,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 295,
+    "fields": {
+      "name": "Foumbot Ville",
+      "arrondissement": 285,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 296,
+    "fields": {
+      "name": "Massangam Ville",
+      "arrondissement": 286,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 297,
+    "fields": {
+      "name": "Kouoptamo Ville",
+      "arrondissement": 287,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 298,
+    "fields": {
+      "name": "Njimom Ville",
+      "arrondissement": 288,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 299,
+    "fields": {
+      "name": "Bamendjou Ville",
+      "arrondissement": 289,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 300,
+    "fields": {
+      "name": "Batié Ville",
+      "arrondissement": 290,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 301,
+    "fields": {
+      "name": "Baham Ville",
+      "arrondissement": 291,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 302,
+    "fields": {
+      "name": "Bangou Ville",
+      "arrondissement": 292,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 303,
+    "fields": {
+      "name": "Poumougné Ville",
+      "arrondissement": 293,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 304,
+    "fields": {
+      "name": "Djembem Ville",
+      "arrondissement": 294,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 305,
+    "fields": {
+      "name": "Bayangam Ville",
+      "arrondissement": 295,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 306,
+    "fields": {
+      "name": "Bangangté Ville",
+      "arrondissement": 296,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 307,
+    "fields": {
+      "name": "Bassamba Ville",
+      "arrondissement": 297,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 308,
+    "fields": {
+      "name": "Bazou Ville",
+      "arrondissement": 298,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 309,
+    "fields": {
+      "name": "Tonga Ville",
+      "arrondissement": 299,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 310,
+    "fields": {
+      "name": "Sangmélima Ville",
+      "arrondissement": 300,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 311,
+    "fields": {
+      "name": "Meyomessala Ville",
+      "arrondissement": 301,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 312,
+    "fields": {
+      "name": "Bengbis Ville",
+      "arrondissement": 302,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 313,
+    "fields": {
+      "name": "Djoum Ville",
+      "arrondissement": 303,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 314,
+    "fields": {
+      "name": "Mintom Ville",
+      "arrondissement": 304,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 315,
+    "fields": {
+      "name": "Oveng Ville",
+      "arrondissement": 305,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 316,
+    "fields": {
+      "name": "Zoétélé Ville",
+      "arrondissement": 306,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 317,
+    "fields": {
+      "name": "Meyomessi Ville",
+      "arrondissement": 307,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 318,
+    "fields": {
+      "name": "Ambam Ville",
+      "arrondissement": 308,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 320,
+    "fields": {
+      "name": "Olamzé Ville",
+      "arrondissement": 310,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 321,
+    "fields": {
+      "name": "Kyé-Ossi Ville",
+      "arrondissement": 311,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 322,
+    "fields": {
+      "name": "Kribi Centre Ville",
+      "arrondissement": 312,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 323,
+    "fields": {
+      "name": "Grand Batanga",
+      "arrondissement": 313,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 324,
+    "fields": {
+      "name": "Akom II Ville",
+      "arrondissement": 314,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 325,
+    "fields": {
+      "name": "Niété Ville",
+      "arrondissement": 315,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 326,
+    "fields": {
+      "name": "Campo Ville",
+      "arrondissement": 316,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 327,
+    "fields": {
+      "name": "Lolodorf Ville",
+      "arrondissement": 317,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 328,
+    "fields": {
+      "name": "Bipindi Ville",
+      "arrondissement": 318,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 329,
+    "fields": {
+      "name": "Mvengue Ville",
+      "arrondissement": 319,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 330,
+    "fields": {
+      "name": "Lokoundjé Ville",
+      "arrondissement": 320,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 331,
+    "fields": {
+      "name": "Ebolowa Ville",
+      "arrondissement": 321,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 332,
+    "fields": {
+      "name": "Nkolongo",
+      "arrondissement": 322,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 333,
+    "fields": {
+      "name": "Mvangan Ville",
+      "arrondissement": 323,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 334,
+    "fields": {
+      "name": "Biwong-Bané Ville",
+      "arrondissement": 334,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 335,
+    "fields": {
+      "name": "Ngoulemakong Ville",
+      "arrondissement": 325,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 336,
+    "fields": {
+      "name": "Mengong Ville",
+      "arrondissement": 326,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 337,
+    "fields": {
+      "name": "Efoulan Ville",
+      "arrondissement": 327,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 338,
+    "fields": {
+      "name": "Biwong-Bulu Ville",
+      "arrondissement": 328,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 339,
+    "fields": {
+      "name": "Molyko",
+      "arrondissement": 329,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 340,
+    "fields": {
+      "name": "Great Soppo",
+      "arrondissement": 330,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 341,
+    "fields": {
+      "name": "Limbe Town",
+      "arrondissement": 331,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 342,
+    "fields": {
+      "name": "Buea Town",
+      "arrondissement": 332,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 343,
+    "fields": {
+      "name": "West-Coast Ville",
+      "arrondissement": 333,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 344,
+    "fields": {
+      "name": "Muyuka Town",
+      "arrondissement": 334,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 345,
+    "fields": {
+      "name": "Tiko Town",
+      "arrondissement": 335,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 346,
+    "fields": {
+      "name": "Mamfe Town",
+      "arrondissement": 336,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 347,
+    "fields": {
+      "name": "Eyumodjock Ville",
+      "arrondissement": 337,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 348,
+    "fields": {
+      "name": "Upper-Bayang Ville",
+      "arrondissement": 338,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 349,
+    "fields": {
+      "name": "Akwaya Village",
+      "arrondissement": 339,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 350,
+    "fields": {
+      "name": "Bangem Town",
+      "arrondissement": 340,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 351,
+    "fields": {
+      "name": "Tombel Ville",
+      "arrondissement": 341,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 352,
+    "fields": {
+      "name": "Nguti Ville",
+      "arrondissement": 342,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 353,
+    "fields": {
+      "name": "Mundemba Town",
+      "arrondissement": 343,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 354,
+    "fields": {
+      "name": "Toko Ville",
+      "arrondissement": 344,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 355,
+    "fields": {
+      "name": "Bamusso Ville",
+      "arrondissement": 345,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 356,
+    "fields": {
+      "name": "Ekondo Titi Ville",
+      "arrondissement": 346,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 357,
+    "fields": {
+      "name": "Isanguélé Ville",
+      "arrondissement": 347,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 358,
+    "fields": {
+      "name": "Dikome-Balue Ville",
+      "arrondissement": 348,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 359,
+    "fields": {
+      "name": "Kombo Itindi Ville",
+      "arrondissement": 349,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 360,
+    "fields": {
+      "name": "Kombo Abedimo Ville",
+      "arrondissement": 350,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 361,
+    "fields": {
+      "name": "Idabato Ville",
+      "arrondissement": 351,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 362,
+    "fields": {
+      "name": "Kumba Town Centre",
+      "arrondissement": 352,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 363,
+    "fields": {
+      "name": "Fiango",
+      "arrondissement": 353,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 364,
+    "fields": {
+      "name": "Kosala",
+      "arrondissement": 354,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 365,
+    "fields": {
+      "name": "Mbonge Ville",
+      "arrondissement": 355,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 366,
+    "fields": {
+      "name": "Fontem Town",
+      "arrondissement": 356,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 367,
+    "fields": {
+      "name": "Alou Ville",
+      "arrondissement": 357,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 368,
+    "fields": {
+      "name": "Wabane Ville",
+      "arrondissement": 358,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 369,
+    "fields": {
+      "name": "Konye Ville",
+      "arrondissement": 359,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.town",
+    "pk": 370,
+    "fields": {
+      "name": "Ekona Ville",
+      "arrondissement": 360,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  }
+]

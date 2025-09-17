@@ -7,7 +7,7 @@ exports.all = async (req, res) => {
         const {
             search,
             page = 1,
-            limit = 10,
+            limit = 100,
             region,
             city,
             departement,
@@ -124,6 +124,7 @@ exports.create = async (req, res) => {
 
         res.status(201).json({ message: "Parcelle créée avec succès", plot: plot });
     } catch (err) {
+        console.log("ERROR CREATING PLOT", err);
         res.status(500).json({
             message: err.message
         });

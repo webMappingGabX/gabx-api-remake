@@ -1,0 +1,3224 @@
+[
+  {
+    "model": "accounts.arrondissement",
+    "pk": 1,
+    "fields": {
+      "name": "Ngaoundéré 1er",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 2,
+    "fields": {
+      "name": "Ngaoundéré 2ème",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 3,
+    "fields": {
+      "name": "Ngaoundéré 3ème",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 4,
+    "fields": {
+      "name": "Ngan-ha",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 5,
+    "fields": {
+      "name": "Nyambaka",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 6,
+    "fields": {
+      "name": "Martap",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 7,
+    "fields": {
+      "name": "Mbé",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 8,
+    "fields": {
+      "name": "Belel",
+      "department": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 9,
+    "fields": {
+      "name": "Banyo",
+      "department": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 10,
+    "fields": {
+      "name": "Mayo-Darlé",
+      "department": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 11,
+    "fields": {
+      "name": "Bankim",
+      "department": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 12,
+    "fields": {
+      "name": "Meiganga",
+      "department": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 13,
+    "fields": {
+      "name": "Djohong",
+      "department": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 14,
+    "fields": {
+      "name": "Ngaoui",
+      "department": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 15,
+    "fields": {
+      "name": "Dir",
+      "department": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 16,
+    "fields": {
+      "name": "Tignère",
+      "department": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 17,
+    "fields": {
+      "name": "Mayo-Baléo",
+      "department": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 18,
+    "fields": {
+      "name": "Kontcha",
+      "department": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 19,
+    "fields": {
+      "name": "Galim-Tignère",
+      "department": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 20,
+    "fields": {
+      "name": "Tibati",
+      "department": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 21,
+    "fields": {
+      "name": "Ngaoundal",
+      "department": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 22,
+    "fields": {
+      "name": "Nanga-Eboko",
+      "department": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 23,
+    "fields": {
+      "name": "Nsem",
+      "department": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 24,
+    "fields": {
+      "name": "Bibey",
+      "department": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 25,
+    "fields": {
+      "name": "Minta",
+      "department": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 26,
+    "fields": {
+      "name": "Mbandjock",
+      "department": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 27,
+    "fields": {
+      "name": "Lembe-Yezoum",
+      "department": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 28,
+    "fields": {
+      "name": "Nkoteng",
+      "department": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 29,
+    "fields": {
+      "name": "Monatélé",
+      "department": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 30,
+    "fields": {
+      "name": "Obala",
+      "department": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 31,
+    "fields": {
+      "name": "Batchenga",
+      "department": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 32,
+    "fields": {
+      "name": "Elig-Mfomo",
+      "department": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 33,
+    "fields": {
+      "name": "Okola",
+      "department": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 34,
+    "fields": {
+      "name": "Lobo",
+      "department": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 36,
+    "fields": {
+      "name": "Ebebda",
+      "department": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 37,
+    "fields": {
+      "name": "Bafia",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 38,
+    "fields": {
+      "name": "Deuk",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 39,
+    "fields": {
+      "name": "Bokito",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 40,
+    "fields": {
+      "name": "Ndikiniméki",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 41,
+    "fields": {
+      "name": "Nitoukou",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 42,
+    "fields": {
+      "name": "Makénéné",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 43,
+    "fields": {
+      "name": "Ombessa",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 44,
+    "fields": {
+      "name": "Kiki",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 45,
+    "fields": {
+      "name": "Kon-Yambetta",
+      "department": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 46,
+    "fields": {
+      "name": "Akonalinga",
+      "department": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 47,
+    "fields": {
+      "name": "Mengang",
+      "department": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 48,
+    "fields": {
+      "name": "Endom",
+      "department": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 49,
+    "fields": {
+      "name": "Nyakombo",
+      "department": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 50,
+    "fields": {
+      "name": "Ayos",
+      "department": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 51,
+    "fields": {
+      "name": "Mbalmayo",
+      "department": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 52,
+    "fields": {
+      "name": "Akoeman",
+      "department": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 53,
+    "fields": {
+      "name": "Mengueme",
+      "department": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 54,
+    "fields": {
+      "name": "Nkolmetet",
+      "department": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 55,
+    "fields": {
+      "name": "Dzeng",
+      "department": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 56,
+    "fields": {
+      "name": "Ngomedzap",
+      "department": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 57,
+    "fields": {
+      "name": "Ntui",
+      "department": 11,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 58,
+    "fields": {
+      "name": "Ngoro",
+      "department": 11,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 59,
+    "fields": {
+      "name": "Yoko",
+      "department": 11,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 60,
+    "fields": {
+      "name": "Ngambé-Tikar",
+      "department": 11,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 61,
+    "fields": {
+      "name": "Mbangassina",
+      "department": 11,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 62,
+    "fields": {
+      "name": "Awae",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 63,
+    "fields": {
+      "name": "Assamba",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 64,
+    "fields": {
+      "name": "Esse",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 65,
+    "fields": {
+      "name": "Afamloum",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 66,
+    "fields": {
+      "name": "Edzendouan",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 67,
+    "fields": {
+      "name": "Nkolafamba",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 68,
+    "fields": {
+      "name": "Mfou",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 69,
+    "fields": {
+      "name": "Soa",
+      "department": 12,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 70,
+    "fields": {
+      "name": "Ngoumou",
+      "department": 15,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 71,
+    "fields": {
+      "name": "Akono",
+      "department": 15,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 72,
+    "fields": {
+      "name": "Bikok",
+      "department": 15,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 73,
+    "fields": {
+      "name": "Mbankomo",
+      "department": 15,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 74,
+    "fields": {
+      "name": "Yaoundé I",
+      "department": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 75,
+    "fields": {
+      "name": "Yaoundé II",
+      "department": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 76,
+    "fields": {
+      "name": "Yaoundé III",
+      "department": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 77,
+    "fields": {
+      "name": "Yaoundé IV",
+      "department": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 78,
+    "fields": {
+      "name": "Yaoundé V",
+      "department": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 79,
+    "fields": {
+      "name": "Yaoundé VI",
+      "department": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 80,
+    "fields": {
+      "name": "Yaoundé VII",
+      "department": 13,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 81,
+    "fields": {
+      "name": "Eséka",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 82,
+    "fields": {
+      "name": "Matomb",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 83,
+    "fields": {
+      "name": "Ngog-Mapubi",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 84,
+    "fields": {
+      "name": "Bondjock",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 85,
+    "fields": {
+      "name": "Biyouha",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 86,
+    "fields": {
+      "name": "Bot-Makak",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 87,
+    "fields": {
+      "name": "Makak",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 88,
+    "fields": {
+      "name": "Messondo",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 89,
+    "fields": {
+      "name": "Dibang",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 90,
+    "fields": {
+      "name": "Nguti",
+      "department": 14,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 91,
+    "fields": {
+      "name": "Yokadouma",
+      "department": 16,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 92,
+    "fields": {
+      "name": "Moloundou",
+      "department": 16,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 93,
+    "fields": {
+      "name": "Salapoumbé",
+      "department": 16,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 94,
+    "fields": {
+      "name": "Gari-Gombo",
+      "department": 16,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 95,
+    "fields": {
+      "name": "Abong-Mbang",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 96,
+    "fields": {
+      "name": "Doumé",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 97,
+    "fields": {
+      "name": "Lomié",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 98,
+    "fields": {
+      "name": "Messaména",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 99,
+    "fields": {
+      "name": "Ngoyla",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 100,
+    "fields": {
+      "name": "Somalomo",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 101,
+    "fields": {
+      "name": "Mindourou",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 102,
+    "fields": {
+      "name": "Dimako",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 103,
+    "fields": {
+      "name": "Nguelémendouka",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 104,
+    "fields": {
+      "name": "Doulé",
+      "department": 17,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 105,
+    "fields": {
+      "name": "Bertoua I",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 106,
+    "fields": {
+      "name": "Bertoua II",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 107,
+    "fields": {
+      "name": "Mandjou",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 108,
+    "fields": {
+      "name": "Bélabo",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 109,
+    "fields": {
+      "name": "Diang",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 110,
+    "fields": {
+      "name": "Bétaré-Oya",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 111,
+    "fields": {
+      "name": "Ngoura",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 112,
+    "fields": {
+      "name": "Garoua-Boulaï",
+      "department": 18,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 113,
+    "fields": {
+      "name": "Batouri",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 114,
+    "fields": {
+      "name": "Ndelelé",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 115,
+    "fields": {
+      "name": "Kette",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 116,
+    "fields": {
+      "name": "Kentzou",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 117,
+    "fields": {
+      "name": "Mbang",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 118,
+    "fields": {
+      "name": "Bombe",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 119,
+    "fields": {
+      "name": "Mbotoro",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 120,
+    "fields": {
+      "name": "Ndokayo",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 121,
+    "fields": {
+      "name": "Ngoulémakong",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 122,
+    "fields": {
+      "name": "Boumba-Bek",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 123,
+    "fields": {
+      "name": "Nguindi",
+      "department": 19,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 124,
+    "fields": {
+      "name": "Maroua I",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 125,
+    "fields": {
+      "name": "Maroua II",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 126,
+    "fields": {
+      "name": "Maroua III",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 127,
+    "fields": {
+      "name": "Dargala",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 128,
+    "fields": {
+      "name": "Ndoukoula",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 129,
+    "fields": {
+      "name": "Gazawa",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 130,
+    "fields": {
+      "name": "Pette",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 131,
+    "fields": {
+      "name": "Bogo",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 132,
+    "fields": {
+      "name": "Méri",
+      "department": 20,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 133,
+    "fields": {
+      "name": "Kousséri",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 134,
+    "fields": {
+      "name": "Zina",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 135,
+    "fields": {
+      "name": "Logone-Birni",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 136,
+    "fields": {
+      "name": "Waza",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 137,
+    "fields": {
+      "name": "Makary",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 138,
+    "fields": {
+      "name": "Darak",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 139,
+    "fields": {
+      "name": "Goulfey",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 140,
+    "fields": {
+      "name": "Blangoua",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 141,
+    "fields": {
+      "name": "Fotokol",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 142,
+    "fields": {
+      "name": "Hile-Halifa",
+      "department": 21,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 143,
+    "fields": {
+      "name": "Mora",
+      "department": 22,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 144,
+    "fields": {
+      "name": "Tokombéré",
+      "department": 22,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 145,
+    "fields": {
+      "name": "Kolofata",
+      "department": 22,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 146,
+    "fields": {
+      "name": "Mokolo",
+      "department": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 147,
+    "fields": {
+      "name": "Soulédé-Roua",
+      "department": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 148,
+    "fields": {
+      "name": "Bourha",
+      "department": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 149,
+    "fields": {
+      "name": "Koza",
+      "department": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 150,
+    "fields": {
+      "name": "Hina",
+      "department": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 151,
+    "fields": {
+      "name": "Mogodé",
+      "department": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 152,
+    "fields": {
+      "name": "Mayo-Moskota",
+      "department": 23,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 153,
+    "fields": {
+      "name": "Yagoua",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 154,
+    "fields": {
+      "name": "Guéré",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 155,
+    "fields": {
+      "name": "Maga",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 156,
+    "fields": {
+      "name": "Wina",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 157,
+    "fields": {
+      "name": "Vélé",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 158,
+    "fields": {
+      "name": "Kai-Kai",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 159,
+    "fields": {
+      "name": "Gobo",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 160,
+    "fields": {
+      "name": "Kar-Hay",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 161,
+    "fields": {
+      "name": "Datcheka",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 162,
+    "fields": {
+      "name": "Tchati-Bali",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 163,
+    "fields": {
+      "name": "Kalfou",
+      "department": 24,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 164,
+    "fields": {
+      "name": "Kaélé",
+      "department": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 165,
+    "fields": {
+      "name": "Guidiguis",
+      "department": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 166,
+    "fields": {
+      "name": "Moutourwa",
+      "department": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 167,
+    "fields": {
+      "name": "Porhi",
+      "department": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 168,
+    "fields": {
+      "name": "Taibong",
+      "department": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 169,
+    "fields": {
+      "name": "Mindif",
+      "department": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 170,
+    "fields": {
+      "name": "Moulvoudaye",
+      "department": 25,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 171,
+    "fields": {
+      "name": "Nkongsamba I",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 172,
+    "fields": {
+      "name": "Nkongsamba II",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 173,
+    "fields": {
+      "name": "Nkongsamba III",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 174,
+    "fields": {
+      "name": "Nlonako",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 175,
+    "fields": {
+      "name": "Dibombari",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 176,
+    "fields": {
+      "name": "Fiko",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 177,
+    "fields": {
+      "name": "Loum",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 178,
+    "fields": {
+      "name": "Njombé-Penja",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 179,
+    "fields": {
+      "name": "Manjo",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 180,
+    "fields": {
+      "name": "Mbanga",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 181,
+    "fields": {
+      "name": "Mombo",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 182,
+    "fields": {
+      "name": "Melong",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 183,
+    "fields": {
+      "name": "Baré-Bakem",
+      "department": 26,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 184,
+    "fields": {
+      "name": "Edéa I",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 185,
+    "fields": {
+      "name": "Edéa II",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 186,
+    "fields": {
+      "name": "Dizangué",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 187,
+    "fields": {
+      "name": "Mouanko",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 188,
+    "fields": {
+      "name": "Ndom",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 189,
+    "fields": {
+      "name": "Nyanon",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 190,
+    "fields": {
+      "name": "Ngambé",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 191,
+    "fields": {
+      "name": "Massock-Songloulou",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 192,
+    "fields": {
+      "name": "Pouma",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 193,
+    "fields": {
+      "name": "Dibamba",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 194,
+    "fields": {
+      "name": "Ngwei",
+      "department": 27,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 195,
+    "fields": {
+      "name": "Yabassi",
+      "department": 28,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 196,
+    "fields": {
+      "name": "Nkondjock",
+      "department": 28,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 197,
+    "fields": {
+      "name": "Nord-Makombé",
+      "department": 28,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 198,
+    "fields": {
+      "name": "Yingui",
+      "department": 28,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 199,
+    "fields": {
+      "name": "Douala I",
+      "department": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 200,
+    "fields": {
+      "name": "Douala II",
+      "department": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 201,
+    "fields": {
+      "name": "Douala III",
+      "department": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 202,
+    "fields": {
+      "name": "Douala IV",
+      "department": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 203,
+    "fields": {
+      "name": "Douala V",
+      "department": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 204,
+    "fields": {
+      "name": "Douala VI",
+      "department": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 205,
+    "fields": {
+      "name": "Manoka",
+      "department": 29,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 206,
+    "fields": {
+      "name": "Garoua I",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 207,
+    "fields": {
+      "name": "Garoua II",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 208,
+    "fields": {
+      "name": "Garoua III",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 209,
+    "fields": {
+      "name": "Baschéo",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 210,
+    "fields": {
+      "name": "Demsa",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 211,
+    "fields": {
+      "name": "Bibémi",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 212,
+    "fields": {
+      "name": "Touroua",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 213,
+    "fields": {
+      "name": "Pitoa",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 214,
+    "fields": {
+      "name": "Dembo",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 215,
+    "fields": {
+      "name": "Lagdo",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 216,
+    "fields": {
+      "name": "Tchéboa",
+      "department": 30,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 217,
+    "fields": {
+      "name": "Poli",
+      "department": 31,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 218,
+    "fields": {
+      "name": "Béka",
+      "department": 31,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 219,
+    "fields": {
+      "name": "Tcholliré",
+      "department": 32,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 220,
+    "fields": {
+      "name": "Madingring",
+      "department": 32,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 221,
+    "fields": {
+      "name": "Rey-Bouba",
+      "department": 32,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 222,
+    "fields": {
+      "name": "Touboro",
+      "department": 32,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 223,
+    "fields": {
+      "name": "Guider",
+      "department": 33,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 224,
+    "fields": {
+      "name": "Mayo-Oulo",
+      "department": 33,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 225,
+    "fields": {
+      "name": "Figuil",
+      "department": 33,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 226,
+    "fields": {
+      "name": "Mayo-Houra",
+      "department": 33,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 227,
+    "fields": {
+      "name": "Kumbo",
+      "department": 34,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 228,
+    "fields": {
+      "name": "Noni",
+      "department": 34,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 229,
+    "fields": {
+      "name": "Mbven",
+      "department": 34,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 230,
+    "fields": {
+      "name": "Jakiri",
+      "department": 34,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 231,
+    "fields": {
+      "name": "Oku",
+      "department": 34,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 232,
+    "fields": {
+      "name": "Nkum",
+      "department": 34,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 233,
+    "fields": {
+      "name": "Wum",
+      "department": 35,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 234,
+    "fields": {
+      "name": "Furu-Awa",
+      "department": 35,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 235,
+    "fields": {
+      "name": "Fungom",
+      "department": 35,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 236,
+    "fields": {
+      "name": "Menchum Valley",
+      "department": 35,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 237,
+    "fields": {
+      "name": "Ndop",
+      "department": 36,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 238,
+    "fields": {
+      "name": "Babessi",
+      "department": 36,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 239,
+    "fields": {
+      "name": "Balikumbat",
+      "department": 36,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 240,
+    "fields": {
+      "name": "Bamenda I",
+      "department": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 241,
+    "fields": {
+      "name": "Bamenda II",
+      "department": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 242,
+    "fields": {
+      "name": "Bamenda III",
+      "department": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 243,
+    "fields": {
+      "name": "Santa",
+      "department": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 244,
+    "fields": {
+      "name": "Tubah",
+      "department": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 245,
+    "fields": {
+      "name": "Bali",
+      "department": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 246,
+    "fields": {
+      "name": "Bafut",
+      "department": 37,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 247,
+    "fields": {
+      "name": "Fundong",
+      "department": 38,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 248,
+    "fields": {
+      "name": "Belo",
+      "department": 38,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 249,
+    "fields": {
+      "name": "Bum",
+      "department": 38,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 250,
+    "fields": {
+      "name": "Njikwa",
+      "department": 38,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 251,
+    "fields": {
+      "name": "Mbengwi",
+      "department": 39,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 252,
+    "fields": {
+      "name": "Ngie",
+      "department": 39,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 253,
+    "fields": {
+      "name": "Batibo",
+      "department": 39,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 254,
+    "fields": {
+      "name": "Widikum-Menka",
+      "department": 39,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 255,
+    "fields": {
+      "name": "Nkambe",
+      "department": 40,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 256,
+    "fields": {
+      "name": "Ako",
+      "department": 40,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 257,
+    "fields": {
+      "name": "Ndu",
+      "department": 40,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 258,
+    "fields": {
+      "name": "Misaje",
+      "department": 40,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 259,
+    "fields": {
+      "name": "Nwa",
+      "department": 40,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 260,
+    "fields": {
+      "name": "Mbouda",
+      "department": 41,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 261,
+    "fields": {
+      "name": "Babadjou",
+      "department": 41,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 262,
+    "fields": {
+      "name": "Batcham",
+      "department": 41,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 263,
+    "fields": {
+      "name": "Galim",
+      "department": 41,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 264,
+    "fields": {
+      "name": "Bafang",
+      "department": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 265,
+    "fields": {
+      "name": "Bakou",
+      "department": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 266,
+    "fields": {
+      "name": "Bana",
+      "department": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 267,
+    "fields": {
+      "name": "Bandja",
+      "department": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 268,
+    "fields": {
+      "name": "Kekem",
+      "department": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 269,
+    "fields": {
+      "name": "Banwa",
+      "department": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 270,
+    "fields": {
+      "name": "Banka",
+      "department": 42,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 271,
+    "fields": {
+      "name": "Dschang",
+      "department": 43,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 272,
+    "fields": {
+      "name": "Santchou",
+      "department": 43,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 273,
+    "fields": {
+      "name": "Fokoué",
+      "department": 43,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 274,
+    "fields": {
+      "name": "Nkong-Ni",
+      "department": 43,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 275,
+    "fields": {
+      "name": "Penka-Michel",
+      "department": 43,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 276,
+    "fields": {
+      "name": "Fongo-Tongo",
+      "department": 43,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 277,
+    "fields": {
+      "name": "Bafoussam I",
+      "department": 44,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 278,
+    "fields": {
+      "name": "Bafoussam II",
+      "department": 44,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 279,
+    "fields": {
+      "name": "Bafoussam III",
+      "department": 44,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 280,
+    "fields": {
+      "name": "Foumban",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 281,
+    "fields": {
+      "name": "Malentouen",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 282,
+    "fields": {
+      "name": "Koutaba",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 283,
+    "fields": {
+      "name": "Magba",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 284,
+    "fields": {
+      "name": "Bangourain",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 285,
+    "fields": {
+      "name": "Foumbot",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 286,
+    "fields": {
+      "name": "Massangam",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 287,
+    "fields": {
+      "name": "Kouoptamo",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 288,
+    "fields": {
+      "name": "Njimom",
+      "department": 45,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 289,
+    "fields": {
+      "name": "Bamendjou",
+      "department": 46,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 290,
+    "fields": {
+      "name": "Batié",
+      "department": 46,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 291,
+    "fields": {
+      "name": "Baham",
+      "department": 46,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 292,
+    "fields": {
+      "name": "Bangou",
+      "department": 46,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 293,
+    "fields": {
+      "name": "Poumougné",
+      "department": 47,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 294,
+    "fields": {
+      "name": "Djembem",
+      "department": 47,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 295,
+    "fields": {
+      "name": "Bayangam",
+      "department": 47,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 296,
+    "fields": {
+      "name": "Bangangté",
+      "department": 48,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 297,
+    "fields": {
+      "name": "Bassamba",
+      "department": 48,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 298,
+    "fields": {
+      "name": "Bazou",
+      "department": 48,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 299,
+    "fields": {
+      "name": "Tonga",
+      "department": 48,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 300,
+    "fields": {
+      "name": "Sangmélima",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 301,
+    "fields": {
+      "name": "Meyomessala",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 302,
+    "fields": {
+      "name": "Bengbis",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 303,
+    "fields": {
+      "name": "Djoum",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 304,
+    "fields": {
+      "name": "Mintom",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 305,
+    "fields": {
+      "name": "Oveng",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 306,
+    "fields": {
+      "name": "Zoétélé",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 307,
+    "fields": {
+      "name": "Meyomessi",
+      "department": 49,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 308,
+    "fields": {
+      "name": "Ambam",
+      "department": 50,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 310,
+    "fields": {
+      "name": "Olamzé",
+      "department": 50,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 311,
+    "fields": {
+      "name": "Kyé-Ossi",
+      "department": 50,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 312,
+    "fields": {
+      "name": "Kribi I",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 313,
+    "fields": {
+      "name": "Kribi II",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 314,
+    "fields": {
+      "name": "Akom II",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 315,
+    "fields": {
+      "name": "Niété",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 316,
+    "fields": {
+      "name": "Campo",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 317,
+    "fields": {
+      "name": "Lolodorf",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 318,
+    "fields": {
+      "name": "Bipindi",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 319,
+    "fields": {
+      "name": "Mvengue",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 320,
+    "fields": {
+      "name": "Lokoundjé",
+      "department": 51,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 321,
+    "fields": {
+      "name": "Ebolowa I",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 322,
+    "fields": {
+      "name": "Ebolowa II",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 323,
+    "fields": {
+      "name": "Mvangan",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 324,
+    "fields": {
+      "name": "Biwong-Bané",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 325,
+    "fields": {
+      "name": "Ngoulemakong",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 326,
+    "fields": {
+      "name": "Mengong",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 327,
+    "fields": {
+      "name": "Efoulan",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 328,
+    "fields": {
+      "name": "Biwong-Bulu",
+      "department": 52,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 329,
+    "fields": {
+      "name": "Limbé I",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 330,
+    "fields": {
+      "name": "Limbé II",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 331,
+    "fields": {
+      "name": "Limbé III",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 332,
+    "fields": {
+      "name": "Buea",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 333,
+    "fields": {
+      "name": "West-Coast",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 334,
+    "fields": {
+      "name": "Muyuka",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 335,
+    "fields": {
+      "name": "Tiko",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 336,
+    "fields": {
+      "name": "Mamfe",
+      "department": 54,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 337,
+    "fields": {
+      "name": "Eyumodjock",
+      "department": 54,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 338,
+    "fields": {
+      "name": "Upper-Bayang",
+      "department": 54,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 339,
+    "fields": {
+      "name": "Akwaya",
+      "department": 54,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 340,
+    "fields": {
+      "name": "Bangem",
+      "department": 55,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 341,
+    "fields": {
+      "name": "Tombel",
+      "department": 55,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 342,
+    "fields": {
+      "name": "Nguti",
+      "department": 55,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 343,
+    "fields": {
+      "name": "Mundemba",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 344,
+    "fields": {
+      "name": "Toko",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 345,
+    "fields": {
+      "name": "Bamusso",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 346,
+    "fields": {
+      "name": "Ekondo Titi",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 347,
+    "fields": {
+      "name": "Isanguélé",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 348,
+    "fields": {
+      "name": "Dikome-Balue",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 349,
+    "fields": {
+      "name": "Kombo Itindi",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 350,
+    "fields": {
+      "name": "Kombo Abedimo",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 351,
+    "fields": {
+      "name": "Idabato",
+      "department": 56,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 352,
+    "fields": {
+      "name": "Kumba I",
+      "department": 57,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 353,
+    "fields": {
+      "name": "Kumba II",
+      "department": 57,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 354,
+    "fields": {
+      "name": "Kumba III",
+      "department": 57,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 355,
+    "fields": {
+      "name": "Mbonge",
+      "department": 57,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 356,
+    "fields": {
+      "name": "Fontem",
+      "department": 58,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 357,
+    "fields": {
+      "name": "Alou",
+      "department": 58,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 358,
+    "fields": {
+      "name": "Wabane",
+      "department": 58,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 359,
+    "fields": {
+      "name": "Konye",
+      "department": 57,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.arrondissement",
+    "pk": 360,
+    "fields": {
+      "name": "Ekona",
+      "department": 53,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  }
+]

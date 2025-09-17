@@ -60,11 +60,11 @@ class SearchService {
         // Construction de la condition de recherche
         const searchCondition = this.buildSearchCondition(searchTerm, searchFields, model);
 
-        console.log("HTHTHTHT   ", searchCondition)
+        /* console.log("HTHTHTHT   ", searchCondition)
         console.log("TESTESTE", [
             searchCondition,
             where
-        ]);
+        ]); */
 
         // Condition WHERE finale
         const finalWhere = {
@@ -74,7 +74,7 @@ class SearchService {
             ].filter(condition => Object.getOwnPropertySymbols(condition).length > 0 || Object.keys(condition).length > 0)
         };
 
-        console.log("HTHTHTHT  FW ", finalWhere)
+        //console.log("HTHTHTHT  FW ", finalWhere)
         // Pagination
         const offset = (page - 1) * limit; Symbol
 

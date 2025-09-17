@@ -1,0 +1,524 @@
+[
+  {
+    "model": "accounts.department",
+    "pk": 1,
+    "fields": {
+      "name": "Vina",
+      "region": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 2,
+    "fields": {
+      "name": "Mayo-Banyo",
+      "region": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 3,
+    "fields": {
+      "name": "Djerem",
+      "region": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 4,
+    "fields": {
+      "name": "Faro-et-Deo",
+      "region": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 5,
+    "fields": {
+      "name": "Mbere",
+      "region": 1,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 6,
+    "fields": {
+      "name": "Haute-Sanaga",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 7,
+    "fields": {
+      "name": "Lekie",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 8,
+    "fields": {
+      "name": "Mbam-et-Inoubou",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 9,
+    "fields": {
+      "name": "Nyong-et-Mfoumou",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 10,
+    "fields": {
+      "name": "Nyong-et-Soo",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 11,
+    "fields": {
+      "name": "Mbam-et-Kim",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 12,
+    "fields": {
+      "name": "Mefou-et-Afamba",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 13,
+    "fields": {
+      "name": "Mfoundi",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 14,
+    "fields": {
+      "name": "Nyong-et-Kelle",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 15,
+    "fields": {
+      "name": "Mefou-et-Akono",
+      "region": 2,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 16,
+    "fields": {
+      "name": "Boumba-et-Ngoko",
+      "region": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 17,
+    "fields": {
+      "name": "Haut-Nyong",
+      "region": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 18,
+    "fields": {
+      "name": "Lom-et-Djerem",
+      "region": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 19,
+    "fields": {
+      "name": "Kadey",
+      "region": 3,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 20,
+    "fields": {
+      "name": "Diamare",
+      "region": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 21,
+    "fields": {
+      "name": "Logone-et-Chari",
+      "region": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 22,
+    "fields": {
+      "name": "Mayo-Sava",
+      "region": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 23,
+    "fields": {
+      "name": "Mayo-Tsanaga",
+      "region": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 24,
+    "fields": {
+      "name": "Mayo-Danay",
+      "region": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 25,
+    "fields": {
+      "name": "Mayo-Kani",
+      "region": 4,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 26,
+    "fields": {
+      "name": "Moungo",
+      "region": 5,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 27,
+    "fields": {
+      "name": "Sanaga-Maritime",
+      "region": 5,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 28,
+    "fields": {
+      "name": "Nkam",
+      "region": 5,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 29,
+    "fields": {
+      "name": "Wouri",
+      "region": 5,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 30,
+    "fields": {
+      "name": "Benoue",
+      "region": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 31,
+    "fields": {
+      "name": "Faro",
+      "region": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 32,
+    "fields": {
+      "name": "Mayo-Rey",
+      "region": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 33,
+    "fields": {
+      "name": "Mayo-Louti",
+      "region": 6,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 34,
+    "fields": {
+      "name": "Bui",
+      "region": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 35,
+    "fields": {
+      "name": "Menchum",
+      "region": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 36,
+    "fields": {
+      "name": "Ngo-Ketunjia",
+      "region": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 37,
+    "fields": {
+      "name": "Mezam",
+      "region": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 38,
+    "fields": {
+      "name": "Boyo",
+      "region": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 39,
+    "fields": {
+      "name": "Momo",
+      "region": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 40,
+    "fields": {
+      "name": "Donga-Mantung",
+      "region": 7,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 41,
+    "fields": {
+      "name": "Bamboutos",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 42,
+    "fields": {
+      "name": "Haut-Nkam",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 43,
+    "fields": {
+      "name": "Menoua",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 44,
+    "fields": {
+      "name": "Mifi",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 45,
+    "fields": {
+      "name": "Noun",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 46,
+    "fields": {
+      "name": "Hauts-Plateaux",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 47,
+    "fields": {
+      "name": "Koung-Khi",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 48,
+    "fields": {
+      "name": "Nde",
+      "region": 8,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 49,
+    "fields": {
+      "name": "Dja-et-Lobo",
+      "region": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 50,
+    "fields": {
+      "name": "Vallee-du-Ntem",
+      "region": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 51,
+    "fields": {
+      "name": "Ocean",
+      "region": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 52,
+    "fields": {
+      "name": "Mvila",
+      "region": 9,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 53,
+    "fields": {
+      "name": "Fako",
+      "region": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 54,
+    "fields": {
+      "name": "Manyu",
+      "region": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 55,
+    "fields": {
+      "name": "Koupe-et-Manengouba",
+      "region": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 56,
+    "fields": {
+      "name": "Ndian",
+      "region": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 57,
+    "fields": {
+      "name": "Meme",
+      "region": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "accounts.department",
+    "pk": 58,
+    "fields": {
+      "name": "Lebialem",
+      "region": 10,
+      "created_at": "2023-01-01T00:00:00Z"
+    }
+  }
+]
