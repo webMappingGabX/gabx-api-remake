@@ -12,4 +12,6 @@ router.post('/', isAuth, overlapController.create);
 router.patch('/:id', isAuth, overlapController.update);
 router.delete('/:id', isAuth, overlapController.delete);
 
+router.get('/dashboard/stats', isExpert, overlapController.stats);
+
 module.exports = router;

@@ -21,7 +21,7 @@ exports.all = async (req, res) => {
         if(status) where.status = status;
 
         //const users = await User.findAll({ order: [['username', 'ASC']] });
-        const users = SearchService.search(User, {
+        const users = await SearchService.search(User, {
             searchTerm: search,
             where,
             page: parseInt(page),
@@ -29,8 +29,16 @@ exports.all = async (req, res) => {
             order: [[sortBy, sortOrder]]
             //order: [["username", "ASC"]]
         })
-        
-        res.status(200).json(users);
+        // Remove password, resetCode, and resetCodeExpiresAt from each user before sending response
+        const sanitizedUsers = users.rows
+            ? {
+                ...users,
+                rows: users.rows.map(({ password, resetCode, resetCodeExpiresAt, ...rest }) => rest)
+              }
+            : users.map
+                ? users.map(({ password, resetCode, resetCodeExpiresAt, ...rest }) => rest)
+                : users;
+        res.status(200).json(sanitizedUsers);
     } catch (err) {
         res.status(500).json({
             message : err.message
@@ -48,7 +56,9 @@ exports.get = async (req, res) => {
         {
             return res.status(404).json("Cet utilisateur n'existe pas");    
         }
-        res.status(200).json(user);
+        // Remove sensitive fields before sending user
+        const { password, resetCode, resetCodeExpiresAt, ...sanitizedUser } = user.toJSON ? user.toJSON() : user;
+        res.status(200).json(sanitizedUser);
     } catch (err) {
         res.status(500).json({
             message : err.message
@@ -226,4 +236,35 @@ exports.changeUserPassword = async (req, res) => {
   } catch (err) {
     res.status(400).json({ message: "Une erreur innatendue lors de la modification du mot de passe", error: err.message });
   }
+}
+
+
+exports.stats = async (req, res) => {
+    try {
+        // Compte les utilisateurs par statut et par rôle
+        const totalUsers = await User.count();
+        const activeUsers = await User.count({ where: { status: "ACTIVE" } });
+        const inactiveUsers = await User.count({ where: { status: "INACTIVE" } });
+        const suspendUsers = await User.count({ where: { status: "SUSPEND" } });
+
+        const adminUsers = await User.count({ where: { role: "ADMIN" } });
+        const expertUsers = await User.count({ where: { role: "EXPERT" } });
+        const defaultUsers = await User.count({ where: { role: "DEFAULT" } });
+        const tenantUsers = await User.count({ where: { role: "TENANT" } });
+
+        res.status(200).json({
+            total: totalUsers,
+            active: activeUsers,
+            inactive: inactiveUsers,
+            suspend: suspendUsers,
+            admin: adminUsers,
+            expert: expertUsers,
+            default: defaultUsers,
+            tenant: tenantUsers
+        });
+    } catch (err) {
+        res.status(500).json({
+            message : err.message
+        });
+    }
 }

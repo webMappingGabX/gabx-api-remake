@@ -8,7 +8,7 @@ exports.all = async (req, res) => {
             search,
             page = 1,
             limit = 10,
-            residency_code,
+            residencyCode,
             sortBy = "id",
             sortOrder = "ASC"
         } = req.query;
@@ -16,7 +16,7 @@ exports.all = async (req, res) => {
         // search
         // filtres exacts
         const where = {};
-        if(residency_code) where.residency_code = residency_code;
+        if(residencyCode) where.residencyCode = residencyCode;
         
         const tenants = await SearchService.search(Tenant, {
             searchTerm: search,
@@ -65,15 +65,15 @@ exports.get = async (req, res) => {
 // Create new tenant
 exports.create = async (req, res) => {
     const {
-        tenant_code,
-        residency_code,
+        tenantCode,
+        residencyCode,
         buildingId
     } = req.body;
 
     try {
         const tenant = await Tenant.create({
-            tenant_code,
-            residency_code,
+            tenantCode,
+            residencyCode,
             buildingId
         });
 

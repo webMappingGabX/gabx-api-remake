@@ -1,6 +1,7 @@
 const jwt = require('jsonwebtoken');
 const { Building } = require('../models');
 const SearchService = require('../services/searchService');
+const { Op } = require('sequelize');
 
 // get all buildings
 exports.all = async (req, res) => {
@@ -17,7 +18,7 @@ exports.all = async (req, res) => {
         const where = {};
 
         //const buildings = await Building.findAll({ order: [['buildingname', 'ASC']] });
-        const buildings = SearchService.search(Building, {
+        const buildings = await SearchService.search(Building, {
             searchTerm: search,
             where,
             page: parseInt(page),
@@ -113,3 +114,23 @@ exports.delete = async (req, res) => {
         });
     }
 }
+
+
+// Get statistics about buildings
+exports.stats = async (req, res) => {
+    try {
+        const totalBuildings = await Building.count();
+        const buildingsWithGeom = await Building.count({ where: { geom: { [Op.ne]: null } } });
+        const buildingsWithCode = await Building.count({ where: { code: { [Op.ne]: null } } });
+
+        res.status(200).json({
+            totalBuildings,
+            buildingsWithGeom,
+            buildingsWithCode
+        });
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
+        });
+    }
+};

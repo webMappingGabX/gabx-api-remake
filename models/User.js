@@ -21,7 +21,7 @@ const User = sequelize.define("user", {
         allowNull: true
     },
     role: {
-        type: DataTypes.ENUM("DEFAULT", "EXPERT", "ADMIN"),
+        type: DataTypes.ENUM("DEFAULT", "EXPERT", "ADMIN", "TENANT"),
         defaultValue: "DEFAULT",
         allowNull: false
     },
@@ -36,6 +36,11 @@ const User = sequelize.define("user", {
     resetCodeExpiresAt: {
         type: DataTypes.DATE,
         allowNull: true
+    },
+    locationCode: {
+        type: DataTypes.STRING,
+        allowNull: true,
+        unique: true
     },
     status: {
         type: DataTypes.ENUM("ACTIVE", "INACTIVE", "SUSPEND"),

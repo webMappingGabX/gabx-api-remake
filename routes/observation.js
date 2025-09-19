@@ -12,4 +12,6 @@ router.post('/', isAuth, observationController.create);
 router.patch('/:id', isAuth, observationController.update);
 router.delete('/:id', isAuth, observationController.delete);
 
+router.get('/dashboard/stats', isExpert, observationController.stats);
+
 module.exports = router;

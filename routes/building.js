@@ -11,5 +11,6 @@ router.get('/:id', isAuth, buildingController.get);
 router.post('/', isExpert, buildingController.create);
 router.patch('/:id', isExpert, buildingController.update);
 router.delete('/:id', isExpert, buildingController.delete);
+router.get('/dashboard/stats', isExpert, buildingController.stats);
 
 module.exports = router;

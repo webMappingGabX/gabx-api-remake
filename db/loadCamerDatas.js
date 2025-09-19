@@ -23,7 +23,7 @@ const loadRegions = async () => {
                 // console.log("INSERT : ", reg);
                 await Region.create(reg);
             } catch (insertErr) {
-                console.log("Failed to insert region:", reg.name, "Error:", insertErr.message);
+                //console.log("Failed to insert region:", reg.name, "Error:", insertErr.message);
                 continue;
             }
         }
@@ -66,7 +66,7 @@ const loadDepartments = async () => {
                 // console.log("INSERT : ", dept);
                 await Department.create(dept);
             } catch (insertErr) {
-                console.log("Failed to insert department:", dept.name, "Error:", insertErr.message);
+                //console.log("Failed to insert department:", dept.name, "Error:", insertErr.message);
                 continue;
             }
         }
@@ -98,7 +98,7 @@ const loadArrondissements = async () => {
                 // console.log("INSERT : ", arrondissement);
                 await Arrondissement.create(arrondissement);
             } catch (insertErr) {
-                console.log("Failed to insert arrondissement:", arrondissement.name, "Error:", insertErr.message);
+                //console.log("Failed to insert arrondissement:", arrondissement.name, "Error:", insertErr.message);
                 continue;
             }
         }
@@ -129,7 +129,7 @@ const loadTowns = async () => {
                 // console.log("INSERT : ", town);
                 await Town.create(town);
             } catch (insertErr) {
-                console.log("Failed to insert town:", town.name, "Error:", insertErr.message);
+                //console.log("Failed to insert town:", town.name, "Error:", insertErr.message);
                 continue;
             }
         }

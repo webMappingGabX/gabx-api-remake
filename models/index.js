@@ -40,6 +40,32 @@ Department.hasMany(Arrondissement, { foreignKey: "departmentId", onDelete: "CASC
 Town.belongsTo(Arrondissement, { foreignKey: { name: "arrondissementId", allowNull: true }, onDelete: "CASCADE" });
 Arrondissement.hasMany(Town, { foreignKey: { name: "arrondissementId", allowNull: true }, onDelete: "CASCADE" });
 
+// Plot FK
+Plot.belongsTo(Region, { foreignKey: { name: 'regionId', allowNull: true }, onDelete: "CASCADE" });
+Region.hasMany(Plot, { foreignKey: { name: 'regionId', allowNull: true }, onDelete: "CASCADE" });
+
+Plot.belongsTo(Department, { foreignKey: { name: 'departmentId', allowNull: true }, onDelete: "CASCADE" });
+Department.hasMany(Plot, { foreignKey: { name: 'departmentId', allowNull: true }, onDelete: "CASCADE" });
+
+Plot.belongsTo(Arrondissement, { foreignKey: { name: 'arrondissementId', allowNull: true }, onDelete: "CASCADE" });
+Arrondissement.hasMany(Plot, { foreignKey: { name: 'arrondissementId', allowNull: true }, onDelete: "CASCADE" });
+
+Plot.belongsTo(Town, { foreignKey: { name: 'townId', allowNull: true }, onDelete: "CASCADE" });
+Town.hasMany(Plot, { foreignKey: { name: 'townId', allowNull: true }, onDelete: "CASCADE" });
+
+// Housing Estate FK
+HousingEstate.belongsTo(Region, { foreignKey: { name: 'regionId', allowNull: true }, onDelete: "CASCADE" });
+Region.hasMany(HousingEstate, { foreignKey: { name: 'regionId', allowNull: true }, onDelete: "CASCADE" });
+
+HousingEstate.belongsTo(Department, { foreignKey: { name: 'departmentId', allowNull: true }, onDelete: "CASCADE" });
+Department.hasMany(HousingEstate, { foreignKey: { name: 'departmentId', allowNull: true }, onDelete: "CASCADE" });
+
+HousingEstate.belongsTo(Arrondissement, { foreignKey: { name: 'arrondissementId', allowNull: true }, onDelete: "CASCADE" });
+Arrondissement.hasMany(HousingEstate, { foreignKey: { name: 'arrondissementId', allowNull: true }, onDelete: "CASCADE" });
+
+HousingEstate.belongsTo(Town, { foreignKey: { name: 'townId', allowNull: true }, onDelete: "CASCADE" });
+Town.hasMany(HousingEstate, { foreignKey: { name: 'townId', allowNull: true }, onDelete: "CASCADE" });
+
 module.exports = {
     User,
     HousingEstate,

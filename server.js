@@ -30,7 +30,7 @@ app.use('/uploads', express.static(path.join(__dirname, 'uploads')));
 app.use(cors({
   origin: '*',  // Autoriser toutes les origines
   //origin: ['http://localhost:3000'],
-  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
 }));
 
@@ -90,7 +90,7 @@ async function dbConfigurations() {
   // Synchroniser les modèles avec la base de données
   //sequelize.sync({ force: true })
   //sequelize.sync({ force: true, alter: false })
-  sequelize.sync({ force: true, alter: false })
+  sequelize.sync({ force: false, alter: true })
   .then(async () => {
     console.log("Les tables ont été synchronisées")
     await createAdmin();

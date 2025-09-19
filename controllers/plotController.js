@@ -1,5 +1,23 @@
-const { Plot, HousingEstate } = require('../models');
+const { Plot, HousingEstate, Region, Department, Arrondissement, Town } = require('../models');
 const SearchService = require('../services/searchService');
+
+// IMCLUSIONS
+const inclusions = [{
+    model: HousingEstate,
+    required: false
+}, {
+    model: Region,
+    required: false
+}, {
+    model: Department,
+    required: false
+}, {
+    model: Arrondissement,
+    required: false
+}, {
+    model: Town,
+    required: false
+}]
 
 // Get all plots
 exports.all = async (req, res) => {
@@ -34,10 +52,7 @@ exports.all = async (req, res) => {
             page: parseInt(page),
             limit: parseInt(limit),
             where,
-            include: [{
-                model: HousingEstate,
-                required: false
-            }],
+            include: inclusions,
             order: [[sortBy, sortOrder]]
         });
 
@@ -64,10 +79,7 @@ exports.get = async (req, res) => {
     try {
         const plot = await Plot.findOne({
             where: { code: code },
-            include: [{
-                model: HousingEstate,
-                required: false
-            }]
+            include: inclusions
         });
 
         if (plot == null) {
@@ -86,10 +98,10 @@ exports.create = async (req, res) => {
     const {
         code,
         geom,
-        region,
-        city,
-        department,
-        district,
+        regionId,
+        departmentId,
+        arrondissementId,
+        townId,
         place,
         TFnumber,
         acquiredYear,
@@ -106,10 +118,10 @@ exports.create = async (req, res) => {
         const plot = await Plot.create({
             code,
             geom,
-            region,
-            city,
-            department,
-            district,
+            regionId,
+            departmentId,
+            arrondissementId,
+            townId,
             place,
             TFnumber,
             acquiredYear,
@@ -230,6 +242,49 @@ exports.getByStatus = async (req, res) => {
             order: [['code', 'ASC']]
         });
         res.status(200).json(plots);
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
+        });
+    }
+};
+
+
+// Get plot statistics
+exports.stats = async (req, res) => {
+    try {
+        // Total number of plots
+        const totalPlots = await Plot.count();
+
+        // Count by status
+        const builtPlots = await Plot.count({ where: { status: 'BATI' } });
+        const unbuiltPlots = await Plot.count({ where: { status: 'NON BATI' } });
+
+        // Total area (sum of area field)
+        const areaResult = await Plot.findAll({
+            attributes: [
+                [Plot.sequelize.fn('SUM', Plot.sequelize.col('area')), 'totalArea']
+            ],
+            raw: true
+        });
+        const totalArea = parseFloat(areaResult[0].totalArea) || 0;
+
+        // Total market value (sum of marketValue field)
+        const valueResult = await Plot.findAll({
+            attributes: [
+                [Plot.sequelize.fn('SUM', Plot.sequelize.col('marketValue')), 'totalMarketValue']
+            ],
+            raw: true
+        });
+        const totalMarketValue = parseFloat(valueResult[0].totalMarketValue) || 0;
+
+        res.status(200).json({
+            total: totalPlots,
+            built: builtPlots,
+            unbuilt: unbuiltPlots,
+            totalArea,
+            totalMarketValue
+        });
     } catch (err) {
         res.status(500).json({
             message: err.message

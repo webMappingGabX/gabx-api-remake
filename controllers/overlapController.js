@@ -129,3 +129,29 @@ exports.delete = async (req, res) => {
         });
     }
 };
+
+// Get overlap statistics
+exports.stats = async (req, res) => {
+    try {
+        // Count total overlaps
+        const total = await Overlap.count();
+
+        // Compute total area
+        const result = await Overlap.findAll({
+            attributes: [
+                [Overlap.sequelize.fn('SUM', Overlap.sequelize.col('area')), 'totalArea']
+            ]
+        });
+        const totalArea = result[0].dataValues.totalArea || 0;
+
+        res.status(200).json({
+            total,
+            totalArea: parseFloat(totalArea)
+        });
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
+        });
+    }
+};
+

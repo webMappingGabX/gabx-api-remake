@@ -20,7 +20,7 @@ const isExpert = (req, res, next) => {
         return res.status(401).json({ error: "Le compte qui tente d'envoyer une requete n'est pas encore actif ou a ete banni" });
     }
 
-    if(decodedToken.role === "DEFAULT") {
+    if(decodedToken.role === "DEFAULT" || decodedToken.role === "TENANT") {
       return res.status(401).json({ error: "Il vous faut des droits d'experts ou d'administrateur pour continuer" });
     }
 

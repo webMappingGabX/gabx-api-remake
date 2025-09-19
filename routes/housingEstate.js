@@ -14,7 +14,9 @@ router.delete('/:id', isExpert, housingEstateController.delete);
 
 // Additional endpoints
 // router.get('/:id([0-9a-fA-F-]+)/stats', isAuth, housingEstateController.getStats);
-router.get('/:id/stats', isAuth, housingEstateController.getStats);
+router.get('/any/:id/stats', isAuth, housingEstateController.getStats);
 router.get('/region/:region', isAuth, housingEstateController.getByRegion);
+
+router.get('/dashboard/stats', isExpert, housingEstateController.stats);
 
 module.exports = router;

@@ -17,4 +17,6 @@ router.get('/housing-estate/:housingEstateId', isAuth, plotController.getByHousi
 router.get('/region/:region', isAuth, plotController.getByRegion);
 router.get('/status/:status', isAuth, plotController.getByStatus);
 
+router.get('/dashboard/stats', isExpert, plotController.stats);
+
 module.exports = router;

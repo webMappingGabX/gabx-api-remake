@@ -2,11 +2,11 @@ const { DataTypes } = require("sequelize");
 const sequelize = require("../sequelize");
 
 const Tenant = sequelize.define("tenant", {
-    tenant_code: {
+    tenantCode: {
         type: DataTypes.STRING,
         allowNull: true
     },
-    residency_code: {
+    residencyCode: {
         type: DataTypes.STRING,
         allowNull: true
     }
@@ -16,6 +16,6 @@ const Tenant = sequelize.define("tenant", {
 });
 
 // Champs de recherche
-Tenant.searchableFields = ["tenant_code", "residency_code"];
+Tenant.searchableFields = ["tenantCode", "residencyCode"];
 
 module.exports = Tenant;

@@ -12,11 +12,11 @@ const Plot = sequelize.define("plot", {
         type: DataTypes.GEOGRAPHY('GEOMETRYCOLLECTION', 4326),
         allowNull: true
     },
-    region: {
+    /*region: {
         type: DataTypes.STRING,
         allowNull: true
     },
-    city: {
+    town: {
         type: DataTypes.STRING,
         allowNull: true
     },
@@ -27,7 +27,7 @@ const Plot = sequelize.define("plot", {
     district: {
         type: DataTypes.STRING,
         allowNull: true
-    },
+    },*/
     place: { //lieuDit
         type: DataTypes.STRING,
         allowNull: true
@@ -76,6 +76,6 @@ const Plot = sequelize.define("plot", {
 });
 
 // Champs de recherche
-Plot.searchableFields = ["code", "region", "city", "department", "district", "place", "TFnumber", "acquiredYear", "classification", "status"];
+Plot.searchableFields = ["code", "regionId", "departmentId", "arrondissementId", "townId", "place", "TFnumber", "acquiredYear", "classification", "status"];
 
 module.exports = Plot;

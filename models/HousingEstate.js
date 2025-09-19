@@ -6,11 +6,11 @@ const HousingEstate = sequelize.define("housingEstate", {
         type: DataTypes.STRING,
         allowNull: true
     },
-    region: {
+    /*region: {
         type: DataTypes.STRING,
         allowNull: true
     },
-    city: {
+    town: {
         type: DataTypes.STRING,
         allowNull: true
     },
@@ -21,7 +21,7 @@ const HousingEstate = sequelize.define("housingEstate", {
     district: {
         type: DataTypes.STRING,
         allowNull: true
-    },
+    },*/
     place: { //lieuDit
         type: DataTypes.STRING,
         allowNull: true

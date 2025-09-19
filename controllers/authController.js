@@ -7,9 +7,9 @@ const { response } = require('express');
 
 exports.register = async (req, res) => {
   try {
-    const { username, email, profession, password } = req.body;
+    const { username, email, profession, password, locationCode } = req.body;
 
-    const newUser = await User.create({ username, email, profession, password });
+    const newUser = await User.create({ username, email, profession, password, locationCode });
 
     return res.status(201).json({
       message: "Utilisateur créé avec succès",
@@ -18,7 +18,8 @@ exports.register = async (req, res) => {
         "name": newUser.name,
         "email": newUser.email,
         "role": newUser.role,
-        "profession": newUser.profession
+        "profession": newUser.profession,
+        "locationCode": locationCode
       }
     });
   } catch (err) {

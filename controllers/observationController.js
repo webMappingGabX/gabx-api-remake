@@ -167,3 +167,47 @@ exports.getByUser = async (req, res) => {
         });
     }
 };
+
+
+// Get observation statistics
+exports.stats = async (req, res) => {
+    try {
+        // Total number of observations
+        const total = await Observation.count();
+
+        // Count by category
+        const categories = await Observation.findAll({
+            attributes: [
+                'category',
+                [Observation.sequelize.fn('COUNT', Observation.sequelize.col('id')), 'count']
+            ],
+            group: ['category']
+        });
+
+        // Count by user
+        const users = await Observation.findAll({
+            attributes: [
+                'userId',
+                [Observation.sequelize.fn('COUNT', Observation.sequelize.col('id')), 'count']
+            ],
+            group: ['userId']
+        });
+
+        res.status(200).json({
+            total,
+            byCategory: categories.map(c => ({
+                category: c.category,
+                count: parseInt(c.dataValues.count)
+            })),
+            byUser: users.map(u => ({
+                userId: u.userId,
+                count: parseInt(u.dataValues.count)
+            }))
+        });
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
+        });
+    }
+};
+
