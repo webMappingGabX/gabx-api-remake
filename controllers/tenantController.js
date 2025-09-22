@@ -96,7 +96,7 @@ exports.update = async (req, res) => {
         if (tenant != null) {
             // Update only provided fields
             Object.keys(updateData).forEach(key => {
-                if (updateData[key] != null && tenant.hasOwnProperty(key)) {
+                if (updateData[key] != null && Object.keys(tenant.dataValues).includes(key)) {
                     tenant[key] = updateData[key];
                 }
             });

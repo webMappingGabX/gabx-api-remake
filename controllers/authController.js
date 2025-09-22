@@ -81,10 +81,15 @@ exports.login = async (req, res) => {
     res.status(200).json({ 
       message: 'Connexion réussie',
       "user": {
+        "id": user.id,
         "username": user.username,
         "email": user.email,
         "profession": user.profession,
-        "role": user.role
+        "role": user.role,
+        "status": user.status,
+        "locationCode": user.locationCode,
+        "createdAt": user.createdAt,
+        "updatedAt": user.updatedAt
       },
       "access": accessToken,
       "refresh": refreshToken.token

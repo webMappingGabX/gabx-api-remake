@@ -72,9 +72,32 @@ exports.all = async (req, res) => {
     }
 };
 
-// Get plot by code
+// Get plot by id
 exports.get = async (req, res) => {
-    const { code } = req.params;
+    const { id } = req.params;
+    //const { code } = req.params;
+
+    try {
+        const plot = await Plot.findOne({
+            //where: { code: code },
+            where: { id: id },
+            include: inclusions
+        });
+
+        if (plot == null) {
+            return res.status(404).json("Cette parcelle n'existe pas");
+        }
+        res.status(200).json(plot);
+    } catch (err) {
+        res.status(500).json({
+            message: err.message
+        });
+    }
+};
+
+// Get plot by code
+exports.getByCode = async (req, res) => {
+     const { code } = req.params;
 
     try {
         const plot = await Plot.findOne({
@@ -154,7 +177,7 @@ exports.update = async (req, res) => {
         if (plot != null) {
             // Update only provided fields
             Object.keys(updateData).forEach(key => {
-                if (updateData[key] != null && plot.hasOwnProperty(key)) {
+                if (updateData[key] != null && Object.keys(plot.dataValues).includes(key)) {
                     plot[key] = updateData[key];
                 }
             });

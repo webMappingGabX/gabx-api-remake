@@ -178,7 +178,7 @@ exports.deleteAccount = async (req, res) => {
 exports.updateAccount = async (req, res) => {
     try {
         const userId = req.user.id;
-        const { username, email, profession } = req.body;
+        const { username, email, profession, locationCode } = req.body;
         
         const currentUser = await User.findByPk(userId);
         
@@ -187,6 +187,9 @@ exports.updateAccount = async (req, res) => {
             if(username != null) currentUser.username = username;
             if(email != null) currentUser.email = email;
             if(profession != null) currentUser.profession = profession;
+            
+            if(currentUser.role == "TENANT" || currentUser.role == "EXPERT" || currentUser.role == "ADMIN")
+                if(locationCode != null) currentUser.locationCode = locationCode;
 
             await currentUser.save();
             
@@ -206,6 +209,7 @@ exports.updateAccount = async (req, res) => {
             });
         }
     } catch (err) {
+        console.log("ERROR", err);
         res.status(400).json({
             message: "Impossible de modifier votre profil",
             error: err
@@ -225,13 +229,14 @@ exports.changeUserPassword = async (req, res) => {
     }
 
     const isPasswordValid = await user.validPassword(password);
-    console.log("PASSWORD", password, "NEWPASSWORD", newPassword, "userId", userId, "VALID", isPasswordValid);
+    //console.log("PASSWORD", password, "NEWPASSWORD", newPassword, "userId", userId, "VALID", isPasswordValid);
     if (!isPasswordValid) {
       return res.status(401).json({ message: 'Mot de passe incorrect' });
     }
 
     if(newPassword != null) user.password = newPassword;
 
+    await user.save()
     res.status(200).json({ message: 'Mot de passe modifie avec succes', "user": { "id": user.id, "name": user.name, "email": user.email, "role": user.role } });
   } catch (err) {
     res.status(400).json({ message: "Une erreur innatendue lors de la modification du mot de passe", error: err.message });

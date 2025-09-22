@@ -94,7 +94,7 @@ exports.update = async (req, res) => {
         if (overlap != null) {
             // Update only provided fields
             Object.keys(updateData).forEach(key => {
-                if (updateData[key] != null && overlap.hasOwnProperty(key)) {
+                if (updateData[key] != null && Object.keys(overlap.dataValues).includes(key)) {
                     overlap[key] = updateData[key];
                 }
             });

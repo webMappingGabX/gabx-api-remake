@@ -12,10 +12,10 @@ router.get('/:id', isAdmin, userController.get);
 router.get('/me', isAuth, userController.me);
 router.post('/', isAdmin, userController.create);
 router.patch('/:id', isAdmin, userController.update);
-router.patch('/update-account', isAuth, userController.updateAccount);
+router.patch('/me/update-account', isAuth, userController.updateAccount);
 router.delete('/:id', isAdmin, userController.delete);
-router.delete('/delete-account', isAuth, userController.deleteAccount);
-router.patch('/change-password', isAuth, userController.changeUserPassword);
+router.delete('/me/delete-account', isAuth, userController.deleteAccount);
+router.patch('/me/change-password', isAuth, userController.changeUserPassword);
 
 router.get('/dashboard/stats', isExpert, userController.stats);
 

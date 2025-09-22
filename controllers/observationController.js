@@ -9,6 +9,7 @@ exports.all = async (req, res) => {
             page = 1,
             limit = 10,
             category,
+            userId,
             sortBy = "category",
             sortOrder = "ASC"
         } = req.query;
@@ -17,6 +18,7 @@ exports.all = async (req, res) => {
         // filtres exacts
         const where = {};
         if(category) where.category = category;
+        if(userId) where.userId = userId;
         
         const observations = await SearchService.search(Observation, {
             searchTerm: search,
@@ -95,10 +97,11 @@ exports.update = async (req, res) => {
     try {
         const observation = await Observation.findOne({ where: { id: id } });
 
+        
         if (observation != null) {
             // Update only provided fields
             Object.keys(updateData).forEach(key => {
-                if (updateData[key] != null && observation.hasOwnProperty(key)) {
+                if (updateData[key] != null && Object.keys(observation.dataValues).includes(key)) {
                     observation[key] = updateData[key];
                 }
             });

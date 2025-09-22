@@ -7,7 +7,8 @@ const router = express.Router();
 
 // Basic CRUD operations
 router.get('/', isAuth, plotController.all);
-router.get('/:code', isAuth, plotController.get);
+router.get('/:id', isAuth, plotController.get);
+//router.get('/:code', isAuth, plotController.getByCode);
 router.post('/', isExpert, plotController.create);
 router.patch('/:code', isExpert, plotController.update);
 router.delete('/:code', isExpert, plotController.delete);
