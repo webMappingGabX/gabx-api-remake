@@ -6,7 +6,8 @@ const isExpert = require("../middleware/isExpert");
 const router = express.Router();
 
 // Basic CRUD operations
-router.get('/', isAuth, housingEstateController.all);
+// router.get('/', isAuth, housingEstateController.all);
+router.get('/', housingEstateController.all);
 router.get('/:id', isAuth, housingEstateController.get);
 router.post('/', isExpert, housingEstateController.create);
 router.patch('/:id', isExpert, housingEstateController.update);

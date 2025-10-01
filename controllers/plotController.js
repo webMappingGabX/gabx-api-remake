@@ -66,6 +66,7 @@ exports.all = async (req, res) => {
 
         res.status(200).json(plots);
     } catch (err) {
+        //console.log("ERROR", err);
         res.status(500).json({
             message: err.message
         });
@@ -138,7 +139,8 @@ exports.create = async (req, res) => {
     } = req.body;
 
     try {
-        const plot = await Plot.create({
+        // Build data object, removing fields with blank string values
+        const rawData = {
             code,
             geom,
             regionId,
@@ -155,7 +157,21 @@ exports.create = async (req, res) => {
             observations,
             status,
             housingEstateId
-        });
+        };
+
+        // Remove fields where value is a string and value.trim() == ''
+        const data = {};
+        for (const [key, value] of Object.entries(rawData)) {
+            if (typeof value === "string") {
+                if (value.trim() !== "") {
+                    data[key] = value;
+                }
+            } else if (value !== undefined) {
+                data[key] = value;
+            }
+        }
+
+        const plot = await Plot.create(data);
 
         res.status(201).json({ message: "Parcelle créée avec succès", plot: plot });
     } catch (err) {
@@ -177,7 +193,14 @@ exports.update = async (req, res) => {
         if (plot != null) {
             // Update only provided fields
             Object.keys(updateData).forEach(key => {
-                if (updateData[key] != null && Object.keys(plot.dataValues).includes(key)) {
+                if (
+                    updateData[key] != null &&
+                    (
+                        (typeof updateData[key] === "string" && updateData[key] !== "") ||
+                        (typeof updateData[key] !== "string")
+                    ) &&
+                    Object.keys(plot.dataValues).includes(key)
+                ) {
                     plot[key] = updateData[key];
                 }
             });
@@ -188,6 +211,7 @@ exports.update = async (req, res) => {
             return res.status(404).json({ message: "Parcelle inexistante" });
         }
     } catch (err) {
+        console.log("ERROR : ", err);
         res.status(500).json({
             message: err.message
         });

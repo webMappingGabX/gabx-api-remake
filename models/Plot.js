@@ -76,6 +76,8 @@ const Plot = sequelize.define("plot", {
 });
 
 // Champs de recherche
-Plot.searchableFields = ["code", "regionId", "departmentId", "arrondissementId", "townId", "place", "TFnumber", "acquiredYear", "classification", "status"];
+//Plot.searchableFields = ["code", "regionId", "departmentId", "arrondissementId", "townId", "housingEstateId", "place", "TFnumber", "acquiredYear", "classification", "status"];
+//Plot.searchableFields = ["code", "place", "TFnumber", "status"];
+Plot.searchableFields = ["code", "place", "TFnumber", "acquiredYear", "status"];
 
 module.exports = Plot;

@@ -33,7 +33,7 @@ exports.all = async (req, res) => {
             townId,
             place,
             buildingsType,
-            sortBy = "code",
+            sortBy = "name",
             sortOrder = "ASC"
         } = req.query;
 

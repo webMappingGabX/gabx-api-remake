@@ -22,7 +22,28 @@ class SearchService {
                     return { [field]: numericValue };
                 }
                 return null;
-            } else {
+            } 
+            else if (fieldType === 'ENUM') {
+                // Pour les champs ENUM
+                // On tente de faire une recherche insensible à la casse sur la valeur de l'enum
+                // Sequelize ne supporte pas iLike sur ENUM, donc on fait une comparaison insensible à la casse
+                // On récupère les valeurs possibles de l'enum
+                const enumValues = model.rawAttributes[field]?.values || [];
+                // On filtre les valeurs de l'enum qui correspondent au searchTerm (insensible à la casse)
+                const matchingEnums = enumValues.filter(val => 
+                    val.toLowerCase().includes(searchTerm.toLowerCase())
+                );
+                if (matchingEnums.length > 0) {
+                    // Si on trouve des correspondances, on crée une condition OR sur ces valeurs
+                    return {
+                        [field]: {
+                            [Op.in]: matchingEnums
+                        }
+                    };
+                }
+                return null;
+            }
+            else {
                 // Pour les champs texte
                 return {
                     [field]: {
@@ -74,9 +95,9 @@ class SearchService {
             ].filter(condition => Object.getOwnPropertySymbols(condition).length > 0 || Object.keys(condition).length > 0)
         };
 
-        //console.log("HTHTHTHT  FW ", finalWhere)
         // Pagination
-        const offset = (page - 1) * limit; Symbol
+        const offset = (page - 1) * limit;
+
 
         const { count, rows } = await model.findAndCountAll({
             where: finalWhere,

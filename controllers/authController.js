@@ -7,9 +7,10 @@ const { response } = require('express');
 
 exports.register = async (req, res) => {
   try {
-    const { username, email, profession, password, locationCode } = req.body;
+    const { username, email, profession, password, locationCode = null } = req.body;
 
-    const newUser = await User.create({ username, email, profession, password, locationCode });
+    let finalRole = locationCode != null && locationCode.trim() != "" ? "TENANT" : "DEFAULT";
+    const newUser = await User.create({ username, email, profession, password, locationCode, role: finalRole });
 
     return res.status(201).json({
       message: "Utilisateur créé avec succès",
@@ -23,6 +24,7 @@ exports.register = async (req, res) => {
       }
     });
   } catch (err) {
+    console.log("ERROR", err);
     return res.status(400).json({
       message: "Impossible de créer l'utilisateur",
       error: err
